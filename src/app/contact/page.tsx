@@ -8,7 +8,7 @@ import { SITE } from "@/lib/site";
 import { CheckCircle2, ArrowRight, Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
 const WEBHOOK_URL =
-  "https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=framingcontractorinsurance.com";
+  "https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=toolandequipmentinsurance.com";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ export default function ContactPage() {
       await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ form_name: "contact", source: "framingcontractorinsurance.com", ...formData }),
+        body: JSON.stringify({ form_name: "contact", source: "toolandequipmentinsurance.com", ...formData }),
       });
       setSubmitted(true);
     } catch {
@@ -69,11 +69,11 @@ export default function ContactPage() {
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Let&rsquo;s talk about your{" "}
                 <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
-                  framing contractor coverage
+                  tools &amp; equipment coverage
                 </span>
               </h1>
               <p className="mt-5 lead max-w-2xl mx-auto">
-                Questions, a quote, or a claim — reach a person who knows framing, not a queue.
+                Questions, a quote, or a theft claim — reach a person who knows contractor gear, not a queue.
               </p>
             </FadeIn>
           </div>
@@ -158,7 +158,7 @@ export default function ContactPage() {
 
                   <div>
                     <label htmlFor="email" className={labelClass}>Email *</label>
-                    <input id="email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder="jane@smithframing.com" className={inputClass} />
+                    <input id="email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder="jane@smithcontracting.com" className={inputClass} />
                   </div>
 
                   <div>
@@ -168,7 +168,7 @@ export default function ContactPage() {
 
                   <div>
                     <label htmlFor="message" className={labelClass}>Message *</label>
-                    <textarea id="message" name="message" rows={5} required value={formData.message} onChange={handleChange} placeholder="Tell us about your framing operation or question…" className={`${inputClass} resize-none`} />
+                    <textarea id="message" name="message" rows={5} required value={formData.message} onChange={handleChange} placeholder="Tell us about your tools, gear, and equipment — or your question…" className={`${inputClass} resize-none`} />
                   </div>
 
                   {error && <p className="text-red-600 text-sm font-medium">{error}</p>}
