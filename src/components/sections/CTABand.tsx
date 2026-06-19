@@ -11,8 +11,8 @@ interface CTABandProps {
 }
 
 export function CTABand({
-  title = "Ready to protect your framing operation?",
-  description = "Get a 15-minute quote from specialists who understand framing — GL, workers' comp, builder's risk, tools, and auto.",
+  title = "Ready to protect your tools and equipment?",
+  description = "Get a 15-minute quote from specialists who understand contractor gear — scheduled tools floaters, mobile equipment, installation floaters, equipment breakdown, and commercial auto.",
 }: CTABandProps) {
   return (
     <section className="relative bg-cream py-16 md:py-20">
