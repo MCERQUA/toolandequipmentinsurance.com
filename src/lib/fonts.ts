@@ -1,4 +1,4 @@
-import { Sora, Inter } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 
 // Body font — Inter (clean, legible for dense coverage copy)
 export const bodyFont = Inter({
@@ -8,10 +8,10 @@ export const bodyFont = Inter({
   display: "swap",
 });
 
-// Heading font — Sora (geometric, structural, modern framing feel)
-export const headingFont = Sora({
+// Heading font — Space Grotesk (geometric, technical, precision feel)
+export const headingFont = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-heading",
-  weight: ["400", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
