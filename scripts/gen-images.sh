@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Generate all images for framingcontractorinsurance.com via HuggingFace FLUX.1-schnell
+# Generate all images for toolandequipmentinsurance.com via HuggingFace FLUX.1-schnell
 # Robust: retries up to 4 times, verifies each is a valid image >= 30KB
 set -uo pipefail
 
-OUT="/workspace/Websites/framingcontractorinsurance.com/public/images"
+OUT="/workspace/Websites/toolandequipmentinsurance.com/public/images"
 mkdir -p "$OUT"
 
 gen() {
@@ -39,40 +39,43 @@ gen() {
   return 1
 }
 
-# === 11 images — framing contractor operations ===
+# === 12 images — contractor tools & equipment insurance ===
 
 gen "hero.jpg" \
-  "Photorealistic cinematic wide shot of a residential wood framing crew raising an exterior wall frame on a new house build. Workers in hi-vis vests and hard hats, nail guns, bright clear morning light, exposed studs and engineered floor trusses, organized jobsite with lumber package. Warm natural wood tones with deep forest-green and copper accents, high-end commercial construction photography, no text, no watermark" 4
+  "Photorealistic cinematic wide shot of an organized contractor work truck bed loaded with neatly arranged power tools, nail guns, miter saw, generators and air compressor, deep organized tool chests, professional construction equipment. Industrial graphite steel and safety amber yellow accent tones, golden hour light, high-end commercial photography, no text, no watermark" 4
 
-gen "framing-walls.jpg" \
-  "Photorealistic photo of two framing carpenters assembling a wood stud wall on the deck of a house under construction, measuring and nailing 2x6 studs, nail gun in action, neat sawhorses and lumber, blue sky. Professional construction photography, warm wood tones, shallow depth of field, no text" 4
+gen "truck-tools.jpg" \
+  "Photorealistic photo of a contractor pickup truck with a locked tool box in the bed full of organized power tools, cordless nailers and saws, professional gear secured for the jobsite. Bright clear daylight, professional commercial photography, industrial steel and amber tones, no text" 4
 
-gen "truss-roof.jpg" \
-  "Photorealistic photo of roof trusses being set on a new home frame, crane lowering a wooden roof truss into place, framers guiding it on top plates, sunny day, structural roof skeleton. Professional commercial construction photography, warm tones, no text" 4
+gen "jobsite-tools.jpg" \
+  "Photorealistic photo of an active residential jobsite with a miter saw station on sawhorses, air compressor, pneumatic nail guns, a laser level and stacked cordless tool batteries, organized and ready. Professional construction photography, warm natural light, no text" 4
 
-gen "jobsite.jpg" \
-  "Photorealistic elevated photo of an active residential framing jobsite: a partially framed two-story house skeleton with stacked lumber, chop saw station, air compressor, framers working on multiple levels. Clear daylight, organized site, professional construction photography, no text" 4
+gen "nail-guns.jpg" \
+  "Photorealistic close-up of a row of professional pneumatic framing nail guns and cordless nailers arranged neatly in a padded tool case, sharp detail, shallow depth of field, industrial graphite and amber tones. Professional product photography, no text" 4
+
+gen "compressor-genset.jpg" \
+  "Photorealistic photo of a portable air compressor and a contractor generator sitting on a residential jobsite, power cords and air hoses connected, ready to run tools. Bright daylight, professional commercial photography, industrial tones, no text" 4
+
+gen "locked-box.jpg" \
+  "Photorealistic photo of a heavy-duty locked steel jobsite tool storage box on a construction site, padlocked, with a contractor work truck in the background. Focus on security and theft prevention, industrial steel tones with amber hazard accents, professional photography, no text" 4
+
+gen "lift-equipment.jpg" \
+  "Photorealistic photo of mobile construction equipment on a jobsite — a towable boom lift and a welder generator, heavy equipment used by contractors. Bright industrial daylight, professional commercial photography, no text" 4
 
 gen "crew-portrait.jpg" \
-  "Photorealistic professional portrait of a confident framing contractor wearing a hard hat, safety glasses and branded flannel shirt, arms crossed, standing on a home building site with framed walls behind him. Warm friendly genuine trustworthy expression, golden hour light, commercial photography, no text" 4
+  "Photorealistic professional portrait of a confident contractor wearing a hard hat and branded work shirt, arms crossed, standing on a jobsite with organized tools and a work truck behind him. Warm friendly genuine trustworthy expression, golden hour light, commercial photography, no text" 4
 
-gen "commercial-build.jpg" \
-  "Photorealistic photo of a large commercial or multifamily building under construction, steel-and-wood framing, multiple framers on scaffolding installing floor and wall systems, crane in background, bright industrial daylight. Professional commercial construction photography, no text" 4
+gen "stolen-tools.jpg" \
+  "Photorealistic photo of a broken truck window and an empty tool box in the bed of a contractor pickup truck at night under a streetlight, depicting a tool theft scene. Moody dramatic lighting, focus on loss and prevention, professional commercial photography, no text" 4
 
-gen "scaffold-safety.jpg" \
-  "Photorealistic photo of framing carpenters working safely on pump-jack scaffolding and a framed two-story wall, wearing fall protection harnesses and hard hats, installing sheathing. Bright daylight, focus on safety, professional construction photography, no text" 4
+gen "saws-lasers.jpg" \
+  "Photorealistic close-up of professional contractor tools arranged on a workbench: a miter saw, a rotary laser level on a tripod, a tape measure and a circular saw, sharp detail, shallow depth of field. Professional product photography, industrial steel and amber tones, no text" 4
 
-gen "lumber-package.jpg" \
-  "Photorealistic photo of a fresh lumber package neatly stacked on a residential jobsite, dimensional lumber and engineered I-joists on dunnage, a framers truck in the background, blue sky. Professional commercial photography, warm natural wood tones, no text" 4
-
-gen "blueprint-tools.jpg" \
-  "Photorealistic close-up of rolled architectural house plans and blueprints resting on a sawhorse next to a framing square, pencil, tape measure and a framing nailer, soft warm light, shallow depth of field. Professional commercial photography, no text" 4
-
-gen "nail-gun-action.jpg" \
-  "Photorealistic action close-up of a framing carpenter firing a pneumatic nail gun into a top plate, wood grain and sawdust visible, gloved hands, bright jobsite light, sharp detail. Professional construction photography, warm tones, no text" 4
+gen "caliper-marks.jpg" \
+  "Photorealistic abstract close-up of a precision measurement caliper and steel ruler with engraved tick marks, industrial graphite steel surface with safety amber yellow hazard stripe accent, shallow depth of field, technical product photography, no text" 4
 
 gen "og-image.jpg" \
-  "Photorealistic cinematic wide banner image of a framing crew raising a wall on a new home build, warm natural wood tones, professional commercial construction photography, wide composition, no text, no watermark" 4
+  "Photorealistic cinematic wide banner image of an organized contractor truck bed full of professional power tools, nail guns, saws and a generator, deep organized gear, industrial steel and safety amber yellow tones, wide composition, professional commercial photography, no text, no watermark" 4
 
 echo "=== ALL IMAGE GENERATION ATTEMPTS COMPLETE ==="
 ls -la "$OUT"
