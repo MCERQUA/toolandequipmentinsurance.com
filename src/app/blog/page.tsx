@@ -9,14 +9,14 @@ import { SITE } from "@/lib/site";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Framing Contractor Insurance Blog — Guides & Insights",
+  title: "Tools & Equipment Insurance Blog — Guides & Insights",
   description:
-    "Practical insurance guidance for framing & rough-carpentry contractors: general liability, workers' comp (class 5403), builder's risk, tools & equipment, and commercial auto.",
+    "Practical insurance guidance for contractors' tools, gear, and equipment: scheduled tools floaters, mobile equipment, installation floaters, inland marine, equipment breakdown, and commercial auto.",
   alternates: { canonical: `${SITE.url}/blog` },
   openGraph: {
-    title: "Framing Contractor Insurance Blog | Contractors Choice Agency",
+    title: "Tools & Equipment Insurance Blog | Contractors Choice Agency",
     description:
-      "Practical insurance guidance for framing contractors: general liability, workers' comp, builder's risk, tools & equipment, and commercial auto.",
+      "Practical insurance guidance for contractor gear: tools floaters, mobile equipment, installation floaters, equipment breakdown, and commercial auto.",
     url: `${SITE.url}/blog`,
   },
 };
@@ -44,16 +44,16 @@ export default function BlogPage() {
             <FadeIn>
               <span className="pill-clay">Blog & insights</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
-                Framing contractor insurance,{" "}
+                Tools &amp; equipment insurance,{" "}
                 <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
                   decoded
                 </span>
               </h1>
               <p className="mt-5 lead max-w-2xl mx-auto">
-                Plain-English guides on the coverage that matters for framing
-                crews — general liability, workers&rsquo; comp, builder&rsquo;s
-                risk, and the tools floaters that pay when gear walks off the
-                jobsite.
+                Plain-English guides on the coverage that matters for contractor
+                gear — scheduled tools floaters, mobile equipment, installation
+                floaters, and the equipment breakdown coverage that pays when gear
+                is stolen or fails.
               </p>
             </FadeIn>
           </div>
@@ -72,7 +72,7 @@ export default function BlogPage() {
                       <article className="grid md:grid-cols-2 gap-0 rounded-[2rem] overflow-hidden bg-white border border-adobe shadow-card hover:shadow-card-hover transition-all">
                         <div className="relative overflow-hidden">
                           <img
-                            src={featured.image || "/images/framing-walls.jpg"}
+                            src={featured.image || "/images/jobsite-tools.jpg"}
                             alt={featured.title}
                             className="w-full h-64 md:h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />

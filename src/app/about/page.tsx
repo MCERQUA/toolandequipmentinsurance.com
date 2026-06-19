@@ -9,23 +9,23 @@ import { SITE, CREDENTIALS } from "@/lib/site";
 import { ArrowRight, HardHat, ShieldCheck, Award, Handshake } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Framing Contractor Insurance | Contractors Choice Agency",
+  title: "About Tools & Equipment Insurance | Contractors Choice Agency",
   description:
-    "Framing Contractor Insurance is the trades-focused division of Contractors Choice Agency, founded in 2005 by former contractor Josh Cotner. General liability, workers' comp, builder's risk, and tools coverage for framing crews. Licensed all 50 states.",
+    "Tools & Equipment Insurance is the gear-focused division of Contractors Choice Agency, founded in 2005 by former contractor Josh Cotner. Scheduled tools floaters, mobile equipment, installation floaters, and equipment breakdown for contractor gear. Licensed all 50 states.",
   alternates: { canonical: `${SITE.url}/about` },
 };
 
 const values = [
-  { icon: HardHat, title: "Trades-first, always", desc: "Josh spent years in the trades before starting the agency. We speak the language of framing because we know what happens when coverage fails at claim time." },
-  { icon: ShieldCheck, title: "Coverage that closes the gaps", desc: "Height exclusions, stolen tools, and jobsite lumber theft — we address the exposures standard markets miss or exclude." },
-  { icon: Award, title: "A-rated markets only", desc: "We shop carriers with the financial strength and trades experience to be there when a fall or fire claim hits." },
-  { icon: Handshake, title: "Honest, no-pressure advice", desc: "If you don't need a line of coverage, we'll tell you. We earn trust by being straight about what your crew actually requires." },
+  { icon: HardHat, title: "Trades-first, always", desc: "Josh spent years in the trades before starting the agency. We know what a tool inventory costs and what happens when coverage fails at claim time." },
+  { icon: ShieldCheck, title: "Coverage that closes the gaps", desc: "The GL-to-tools gap, stolen-gear exposure, and equipment breakdown — we address the exposures standard markets miss or exclude." },
+  { icon: Award, title: "A-rated markets only", desc: "We shop carriers with the financial strength and inland marine experience to be there when a theft or breakdown claim hits." },
+  { icon: Handshake, title: "Honest, no-pressure advice", desc: "If you don't need a line of coverage, we'll tell you. We earn trust by being straight about what your gear actually requires." },
 ];
 
 const timeline = [
   { year: "2005", title: "Contractors Choice Agency founded", desc: "Josh Cotner opens CCA in Chandler, AZ, after years working in the trades — built to insure contractors the right way." },
-  { year: "20 yrs", title: "Expanded to specialty trades markets", desc: "After placing programs for dozens of contractor categories, CCA deepens its focus on framing and rough-carpentry crews with unique risk profiles." },
-  { year: "Today", title: "Dedicated framing contractor division", desc: "Framing Contractor Insurance focuses CCA's expertise on framers — crews where falls, nail-gun injuries, and jobsite theft are the real risks." },
+  { year: "20 yrs", title: "Expanded to inland marine markets", desc: "After placing programs for dozens of contractor categories, CCA deepens its focus on tools & equipment — the gear-heavy crews whose coverage lives in the inland marine market." },
+  { year: "Today", title: "Dedicated tools & equipment division", desc: "Tools & Equipment Insurance focuses CCA's expertise on contractor gear — nail guns, saws, lifts, compressors, and the theft and breakdown exposures that define a gear-heavy operation." },
 ];
 
 export default function AboutPage() {
@@ -50,14 +50,14 @@ export default function AboutPage() {
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Built by a contractor,{" "}
                 <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
-                  for framers
+                  for contractor gear
                 </span>
                 .
               </h1>
               <p className="mt-6 lead">
-                Framing Contractor Insurance is the trades-focused division of Contractors
+                Tools &amp; Equipment Insurance is the gear-focused division of Contractors
                 Choice Agency — founded in 2005 by Josh Cotner, a former contractor who knows
-                exactly what happens when a height exclusion shows up in a fall-claim denial.
+                exactly what happens when a truck gets broken into and the tools aren&rsquo;t covered.
               </p>
               <div className="mt-7 flex flex-col sm:flex-row gap-3">
                 <Link href="/quote" className="btn-primary">Get a quote <ArrowRight className="h-5 w-5" /></Link>
@@ -68,7 +68,7 @@ export default function AboutPage() {
               <div className="rounded-t-[12rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
                 <img
                   src="/images/crew-portrait.jpg"
-                  alt="A framing contractor on a residential build site"
+                  alt="A contractor on a jobsite with organized tools and equipment"
                   className="w-full h-[360px] md:h-[440px] object-cover"
                   loading="lazy"
                 />
@@ -100,9 +100,10 @@ export default function AboutPage() {
               <span className="eyebrow"><span className="h-px w-8 bg-clay" />Our story</span>
               <h2 className="mt-3 h-section">From the jobsite to the agency.</h2>
               <p className="mt-4 lead">
-                Josh Cotner swung a hammer, read plans, and pulled permits before founding CCA in 2005.
-                That background is why we understand what&rsquo;s at stake when a framer falls and the
-                carrier cites a height exclusion — or when a lumber package walks off the site overnight.
+                Josh Cotner swung a hammer, priced out tool inventories, and ran gear between jobsites
+                before founding CCA in 2005. That background is why we understand what&rsquo;s at stake when
+                a truck gets broken into and the nailers are gone — or when a compressor blows internally
+                and the crew can&rsquo;t run.
               </p>
             </FadeIn>
             <div className="space-y-6">
