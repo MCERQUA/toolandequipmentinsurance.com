@@ -1,8 +1,8 @@
-// Rich, niche-accurate content blocks for Framing Contractor Insurance.
+// Rich, niche-accurate content blocks for Tools & Equipment Insurance.
 
 import {
   PhoneCall, FileSearch, FileSignature, ShieldCheck,
-  Building2, Truck, HardHat, Wrench,
+  Wrench, Truck, HardHat, Cog,
 } from "lucide-react";
 
 export interface FAQItem {
@@ -17,30 +17,30 @@ export const PROCESS = [
   {
     step: "01",
     icon: PhoneCall,
-    title: "Tell us about your framing operation",
+    title: "Tell us about your gear and operation",
     description:
-      "15-min call or form. Crew size, annual framing revenue, typical project size, subs vs. W-2, and the lines your old carrier excluded.",
+      "15-min call or form. Tool inventory, mobile equipment, how gear moves between truck and jobsite, materials in transit, and the coverage lines your old carrier missed.",
   },
   {
     step: "02",
     icon: FileSearch,
-    title: "We shop specialty trades markets",
+    title: "We shop specialty inland marine markets",
     description:
-      "Markets that actually write framing contractors at class 5403 — not generic handyman carriers that exclude falls over 6 feet or subcontracted work.",
+      "Markets that actually write scheduled tools, mobile equipment, and installation floaters at replacement cost — not generic property carriers that exclude off-premises gear.",
   },
   {
     step: "03",
     icon: FileSignature,
-    title: "Bind a program built for framers",
+    title: "Bind a program built for your gear",
     description:
-      "GL + workers' comp + builder's risk + tools floater + auto, coordinated so there are no gaps between your operations and the structure you're framing.",
+      "Tools & equipment floater + scheduled equipment + installation floater + equipment breakdown + commercial auto, coordinated so there are no gaps when gear is stolen or breaks.",
   },
   {
     step: "04",
     icon: ShieldCheck,
-    title: "Certificates & claims that move fast",
+    title: "Claims that move fast when gear is gone",
     description:
-      "When a GC needs an additional-insured certificate before you roll, or a fall claim happens, you reach a person with context — not a queue. 2-hour response.",
+      "When a truck gets broken into or a compressor dies, you reach a person with context — not a queue. 2-hour response, fast claim handling so you can replace gear and keep working.",
   },
 ] as const;
 
@@ -49,40 +49,40 @@ export const PROCESS = [
    ============================================================ */
 export const WHY_CHOOSE = [
   {
-    icon: ShieldCheck,
-    title: "GL that covers falls over 6 feet",
-    description:
-      "Many cheap contractor policies exclude work over one or two stories. We place general liability that covers the real framing exposure — two- and three-story framing, roof work, and subcontracted operations.",
-  },
-  {
-    icon: HardHat,
-    title: "Workers' comp coded right at 5403",
-    description:
-      "Framing crews get mis-classed constantly. We assign the correct carpentry class codes and document your fall-protection program so your rate reflects your real — not worst-case — exposure.",
-  },
-  {
-    icon: Building2,
-    title: "Builder's risk for the structure you frame",
-    description:
-      "The lumber package, installed materials, and labor you've put into a frame are a real loss exposure. We write builder's risk that covers fire, theft, wind, and vandalism during construction.",
-  },
-  {
     icon: Wrench,
-    title: "Tools & equipment floaters that pay",
+    title: "Tools scheduled at replacement cost",
     description:
-      "Nail guns, miter saws, generators, and compressors walk off jobsites every day. We schedule your gear at replacement cost so a theft doesn't come out of your pocket.",
+      "Many policies pay actual cash value — depreciating a $600 nailer to $150. We schedule your gear at replacement cost so a theft replaces your tools new, not at pennies on the dollar.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "We close the GL-to-tools gap",
+    description:
+      "General liability does not cover your tools — and most contractors don't find out until after a theft. We build the tools floater that fills the gap your GL leaves wide open.",
+  },
+  {
+    icon: Cog,
+    title: "Equipment breakdown that replaces dead gear",
+    description:
+      "When a compressor blows internally or a generator's windings fry, standard property won't pay. We add equipment breakdown so mechanical and electrical failures are covered.",
   },
   {
     icon: Truck,
-    title: "Certificates & additional insureds, fast",
+    title: "Theft from truck, trailer, and jobsite",
     description:
-      "GCs and developers require certificates before you set the first plate. We turn additional-insured and waiver-of-subrogation endorsements around in minutes, not days.",
+      "Tools live on trucks and jobsites — and that's exactly where they get stolen. A scheduled floater follows your gear wherever it goes, with theft coverage built in.",
   },
   {
     icon: HardHat,
+    title: "Mobile equipment on agreed value",
+    description:
+      "Lifts, compressors, welders, and specialty gear get undervalued on generic policies. We schedule each high-value unit at agreed value so a total loss pays what it's really worth.",
+  },
+  {
+    icon: ShieldCheck,
     title: "Run by a former contractor",
     description:
-      "Josh Cotner knows how framing operations run and exactly what happens when coverage fails at claim time. You'll never have to explain a jobsite to us.",
+      "Josh Cotner knows what a tool inventory costs and exactly what happens when coverage fails at claim time. You'll never have to explain a jobsite theft to us.",
   },
 ] as const;
 
@@ -91,84 +91,84 @@ export const WHY_CHOOSE = [
    ============================================================ */
 export const HOME_FAQS: FAQItem[] = [
   {
-    q: "What kind of insurance does a framing contractor need?",
-    a: "A framing contractor typically needs a bundle built around the job: general liability, workers' compensation (class 5403 carpentry), builder's risk for the structure being framed, a tools & equipment floater for nail guns and saws, commercial auto for trucks and trailers, and an umbrella for higher-limit GC requirements. Most framers also need contractor license and surety bonds to stay legal and competitive.",
+    q: "Does general liability insurance cover stolen tools?",
+    a: "No. General liability (GL) covers third-party bodily injury and property damage — it does not cover your own tools, equipment, or gear. Stolen and damaged tools are covered under a tools & equipment (inland marine) floater. We build that floater specifically because most contractors don't discover the GL gap until after a theft.",
   },
   {
-    q: "How much does framing contractor insurance cost?",
-    a: "Most framing contractors pay between $1,500 and $4,500 a year for a $1M/$2M general liability policy, depending on payroll, revenue, crew size, claims history, and whether you frame over two stories. Workers' comp is rated on payroll at the 5403 carpentry class. We quote the whole program in about 15 minutes and show you every market's price side by side.",
+    q: "What is tools and equipment insurance?",
+    a: "Tools and equipment insurance is a scheduled inland marine policy that covers your contractor gear — nail guns, saws, lasers, generators, compressors, and mobile equipment — against theft, damage, and loss on the jobsite, in transit, and on your truck. It follows your gear wherever the work takes it, unlike a fixed-location property policy.",
   },
   {
-    q: "What is the workers' comp class code for framing?",
-    a: "Wood framing and rough carpentry is most often coded under NCCI class 5403 (Carpentry). Some operations split out roof truss setting, siding, or interior finish carpentry into their own codes. Correct classification matters — wrong codes mean overpaying on premium or, worse, an audit bill and denied claim.",
+    q: "How much does tools and equipment insurance cost?",
+    a: "Most contractors pay between $500 and $2,500 a year for a scheduled tools floater, depending on the total value of gear scheduled, the deductible chosen, and your theft-loss history. Premium is typically 1-3% of scheduled value. We quote the full program in about 15 minutes and show you every market's price side by side.",
   },
   {
-    q: "Does general liability cover falls from height?",
-    a: "It should — but many budget contractor policies exclude work over one or two stories or exclude roof work entirely. Framing is a height business, so we place GL that specifically covers two- and three-story framing, truss setting, and roof work without height exclusions.",
+    q: "Is tools coverage replacement cost or actual cash value?",
+    a: "We write tools & equipment at replacement cost so a stolen or destroyed tool is replaced new — not depreciated to a fraction of its value. Actual cash value (ACV) policies can pay $150 for a $600 nailer. Replacement cost is the difference between staying on schedule and buying gear out of pocket.",
   },
   {
-    q: "Do I need builder's risk if the GC already carries it?",
-    a: "Sometimes the project's master builder's risk covers your installed work, but gaps are common — especially around materials you've delivered but not yet installed, or theft from an unsecured jobsite. We review the GC's program and either confirm you're covered or write a framers-installation floater so your materials and labor are protected.",
+    q: "What is a scheduled tools floater?",
+    a: "A scheduled floater lists each major piece of gear individually — make, model, serial number, and value — so coverage and claims are unambiguous. Scheduled coverage pays the listed value at claim time with no depreciation argument. We help you build and maintain the schedule as you add gear.",
   },
   {
-    q: "Does my policy cover my nail guns, saws, and compressors?",
-    a: "General liability and property do not cover your tools off-premises. Tools are an inland marine (tools & equipment) coverage. We schedule your gear — nail guns, miter saws, generators, air compressors, lasers — at replacement cost so theft from the jobsite or truck is covered.",
+    q: "Are tools stolen from my truck or trailer covered?",
+    a: "Yes — a tools & equipment floater covers theft from your truck, trailer, and jobsite, subject to the policy terms and deductible. Some policies carry a separate, higher deductible for theft from an unattended vehicle, so we review those terms carefully and structure the policy to minimize out-of-pocket exposure.",
   },
   {
-    q: "Are my subcontractors covered under my insurance?",
-    a: "Your GL does not extend to independent subcontractors — they should carry their own coverage and name you additional insured. If your subs are uninsured and cause a loss, you can be pulled in. We help you set up certificate tracking and additional-insured requirements so subcontracted work doesn't become your liability.",
+    q: "What is the difference between scheduled and blanket tool coverage?",
+    a: "Scheduled coverage lists each item with its value; blanket coverage covers the total inventory up to a limit without itemizing. Scheduled pays more reliably at claim time (no depreciation or proof-of-ownership fights) and is better for high-value gear. Blanket is simpler but often pays less and caps per-item limits. We recommend scheduled for gear-heavy contractors.",
   },
   {
-    q: "Can you get me a certificate of insurance today?",
-    a: "Yes. Once your program is bound we turn around additional-insured certificates, waivers of subrogation, and primary/non-contributory endorsements — usually within minutes. We know GCs won't let you start framing without proof of coverage.",
+    q: "Does my commercial auto policy cover the tools in my truck?",
+    a: "No. Commercial auto covers liability for at-fault crashes and physical damage to the vehicle itself — not the cargo, tools, or equipment inside or on the truck. Tools are covered by a tools & equipment (inland marine) floater. We pair the two so both the truck and its contents are protected.",
   },
   {
-    q: "What happens if lumber is stolen from my jobsite?",
-    a: "Lumber packages and installed materials are covered under builder's risk or an installation floater, while your tools are covered under a tools & equipment policy. We help you structure both so jobsite theft — one of the most common framing losses — doesn't come out of your margin.",
+    q: "What is an installation floater and do I need one?",
+    a: "An installation floater covers materials and supplies while in transit to the jobsite and until they're installed and accepted by the owner. It closes the gap between the supplier's truck and the structure. If you haul material packages that could be lost, damaged, or stolen before installation, you need one.",
   },
   {
-    q: "Do you insure framing contractors in all 50 states?",
-    a: "Yes. Contractors Choice Agency is licensed in all 50 states and writes framing contractors from Texas and the Sun Belt to the Pacific Northwest, Rocky Mountain West, and Northeast.",
+    q: "What is inland marine insurance for contractors?",
+    a: "Inland marine is the coverage class for property that moves — tools, equipment, materials in transit, and gear on jobsites. It's the flexible foundation that scheduled tools floaters, installation floaters, and mobile equipment coverage are built on. For contractors whose gear rarely sits still, it's the right coverage.",
   },
   {
-    q: "How fast can I get a quote?",
-    a: "Typically 15 minutes on a call for a standard framing program. Complex operations — wall-panel plants, large multifamily, heavy subcontracted work — may take a day or two to place with the right markets, but we move fast and tell you the timeline up front.",
+    q: "Does tools and equipment insurance cover mobile equipment like lifts and welders?",
+    a: "Yes — high-value mobile equipment (boom lifts, towable compressors, welder generators) should be scheduled separately at agreed value. Generic policies undervalue this equipment, but scheduled mobile-equipment coverage pays the agreed amount on a total loss. We list each unit individually.",
   },
   {
-    q: "Will my rate go up if a framer gets hurt on the job?",
-    a: "A single workers' comp claim can affect your experience modifier and future premium. The best protection is correct class coding, a documented safety and fall-protection program, and a claims partner who manages the claim aggressively — all of which we help with. Good loss control keeps your experience mod down.",
+    q: "What is equipment breakdown coverage and how is it different from tools insurance?",
+    a: "Tools insurance covers theft and external damage. Equipment breakdown (boiler and machinery) covers internal mechanical and electrical failures — a blown compressor, fried generator windings, burned-out motor, or shorted electronics — that standard property excludes. Most gear-heavy contractors need both.",
   },
   {
-    q: "What limits do framing contractors typically carry?",
-    a: "Most residential framers carry $1M per occurrence / $2M general aggregate for GL, plus an umbrella of $2M–$5M. Commercial and multifamily GCs often require $2M or $5M limits and additional insured status. We size limits to what your contracts actually demand.",
+    q: "Do you insure contractors' tools in all 50 states?",
+    a: "Yes. Contractors Choice Agency is licensed in all 50 states and writes tools & equipment programs for contractors anywhere in the country — from the highest-theft markets like Texas and the Northeast to the storm-rebuild surge zones of the Southeast and Gulf Coast.",
   },
   {
-    q: "Do I need commercial auto for my work truck?",
-    a: "Yes. A personal auto policy typically excludes business use and will deny a claim when you're hauling lumber or tools to a jobsite. Commercial auto covers your trucks, dump trailers, and lumber haulers, including hired/non-owned vehicles when employees drive their own trucks for you.",
+    q: "How fast can I get a quote and bind coverage?",
+    a: "Typically 15 minutes on a call for a standard scheduled-tools program. Larger schedules with mobile equipment and installation floaters may take a day to place with the right markets, but we move fast and tell you the timeline up front. Once bound, certificates and schedules are issued quickly.",
   },
   {
-    q: "What if I frame in wildfire or hurricane zones?",
-    a: "Building in the WUI or on the coast adds underwriting complexity — wind, named-storm, and wildfire exposures affect builder's risk and property pricing. We have markets that write these zones and structure your program so you're covered during the build, not just after.",
+    q: "How do I value my tools for a floater?",
+    a: "We build a schedule listing each major tool with its replacement value — make, model, serial number, and what it would cost to buy new today. You can update the schedule as you add gear. Accurate scheduling keeps premiums fair and claims fast. Keep receipts and photos to support it.",
   },
   {
-    q: "Can you insure framers with prior claims or cancellations?",
-    a: "Often, yes. If you've had a fall claim, a cancellation, or been declined, we have excess-and-surplus (E&S) markets for contractors other brokers won't touch. Bring your loss runs and we'll find a path.",
+    q: "What deductible should I choose for tools coverage?",
+    a: "Most contractors choose a $250 to $1,000 deductible. A higher deductible lowers premium but increases out-of-pocket at claim time. Watch for theft-from-unattended-vehicle deductibles, which can be higher ($1,000-$2,500). We help you balance premium against realistic out-of-pocket exposure.",
   },
   {
-    q: "Do you cover wall-panel and truss manufacturing too?",
-    a: "Yes. If you've added off-site wall-panel or floor-truss fabrication, that's a different exposure (manufacturing property and products liability). We can extend your program to cover a panel plant or coordinate a separate manufacturing policy.",
+    q: "What happens if I have a prior theft claim or cancellation?",
+    a: "Often we can still place coverage. We have excess-and-surplus (E&S) inland marine markets for contractors with loss runs, prior thefts, or cancellations that standard markets decline. Bring your loss runs and gear schedule and we'll find a path.",
   },
   {
-    q: "What is additional insured status and why do GCs want it?",
-    a: "Additional insured status extends your liability coverage to the GC or developer for your operations. GCs require it — along with a waiver of subrogation and primary/non-contributory endorsement — so that if a claim arises from your framing work, your policy responds first. We issue these endorsements routinely.",
+    q: "Does the policy cover borrowed or rented tools and equipment?",
+    a: "It can. We can extend coverage to borrowed and rented equipment, which matters if you rent lifts, compressors, or specialty tools for specific jobs. Rental companies often require proof of insurance — we issue certificates naming them as required.",
   },
   {
-    q: "How are framing insurance premiums calculated?",
-    a: "General liability is usually rated on payroll or subcontractor cost; workers' comp on payroll by class code; tools & equipment on scheduled value; commercial auto on vehicles and drivers; builder's risk on the project value. We document your operation accurately so you're rated on real exposure, not a worst-case guess.",
+    q: "How are tools insurance premiums calculated?",
+    a: "Premium is based primarily on the total scheduled value of your gear (typically 1-3% of value annually), modified by deductible, theft class of your region, and loss history. Mobile equipment and installation floaters are rated separately. We document your inventory accurately so you're rated on real exposure.",
   },
   {
-    q: "Why use a specialty framing insurance broker?",
-    a: "Framing is a height- and tool-heavy trade with fall, nail-gun, saw, and theft exposures that generic small-business carriers routinely exclude or misprice. A specialty broker knows the class codes, the height exclusions to avoid, the markets that write framers, and how to manage a framing claim — which means better coverage at a fairer price.",
+    q: "Why use a specialty tools and equipment insurance broker?",
+    a: "Tools, mobile equipment, and installation floaters live in the inland marine market — a specialty class most generic agents don't understand. A specialty broker knows which carriers write scheduled gear at replacement cost, how to structure theft deductibles, and how to manage a tools-theft claim so it pays. That means better coverage at a fairer price.",
   },
 ];
 
@@ -178,52 +178,52 @@ export const HOME_FAQS: FAQItem[] = [
    ============================================================ */
 export const GENERAL_FAQS: FAQItem[] = [
   {
-    q: "How much does this coverage cost for a framing contractor?",
-    a: "Most framers pay $1,500–$4,500 a year for $1M/$2M general liability, with workers' comp rated on payroll at class 5403 and tools floaters based on scheduled gear. We quote the full program in about 15 minutes and show every market's price.",
+    q: "How much does tools and equipment insurance cost?",
+    a: "Most contractors pay $500-$2,500 a year for a scheduled tools floater, typically 1-3% of the total scheduled gear value, modified by deductible and theft-loss history. We quote the full program in about 15 minutes and show every market's price.",
   },
   {
-    q: "Do you insure framing contractors in all 50 states?",
-    a: "Yes. Contractors Choice Agency is licensed in all 50 states and writes framing crews from the Sun Belt and Texas to the Pacific Northwest, Rocky Mountain West, and Northeast.",
+    q: "Do you insure contractor tools in all 50 states?",
+    a: "Yes. Contractors Choice Agency is licensed in all 50 states and writes tools & equipment programs for contractors from the highest-theft markets to the storm-rebuild surge zones.",
   },
   {
-    q: "How fast can I get a quote and a certificate?",
-    a: "About 15 minutes for a standard program. Once bound, we turn around additional-insured certificates, waivers of subrogation, and primary/non-contributory endorsements usually within minutes.",
+    q: "How fast can I get a quote and bind coverage?",
+    a: "About 15 minutes for a standard scheduled-tools program. Once bound, we turn around certificates, schedules, and additional-insured endorsements usually within minutes.",
   },
   {
-    q: "What workers' comp class code applies to framing?",
-    a: "Wood framing and rough carpentry is typically coded under NCCI class 5403 (Carpentry). Correct classification keeps you from overpaying or facing an audit surprise — and ensures claims aren't denied for misclassification.",
+    q: "Does general liability cover my stolen tools?",
+    a: "No. GL covers third-party injury and damage, not your own gear. Tools are covered under a tools & equipment (inland marine) floater — which is what we build to close the gap GL leaves open.",
   },
   {
-    q: "Does the policy cover falls from height?",
-    a: "We place general liability that specifically covers two- and three-story framing, truss setting, and roof work. Many budget contractor policies exclude work above one or two stories — we make sure yours does not.",
+    q: "Is coverage replacement cost or actual cash value?",
+    a: "We write tools & equipment at replacement cost so stolen or destroyed gear is replaced new, not depreciated. ACV policies can pay pennies on the dollar for a $600 nailer — replacement cost keeps you working.",
   },
   {
-    q: "Are my tools covered on the jobsite?",
-    a: "Tools are covered under a tools & equipment (inland marine) policy, not GL or property. We schedule nail guns, saws, generators, and compressors at replacement cost so jobsite and truck theft is covered.",
+    q: "Are tools stolen from my truck or jobsite covered?",
+    a: "Yes — a scheduled tools floater covers theft from your truck, trailer, and jobsite, subject to the policy terms and deductible. Some policies carry a higher theft-from-unattended-vehicle deductible, which we review carefully.",
   },
   {
-    q: "What limits should a framing contractor carry?",
-    a: "Most residential framers carry $1M/$2M GL with a $2M–$5M umbrella. Commercial and multifamily GCs often require $2M–$5M limits plus additional-insured status. We size limits to your actual contract requirements.",
+    q: "What tools and equipment should be scheduled?",
+    a: "Schedule anything of meaningful value — nail guns, miter and circular saws, lasers, generators, compressors, mobile equipment, and specialty gear. We help you build the schedule with make, model, serial number, and replacement value, and update it as you add gear.",
   },
   {
-    q: "Do I need commercial auto for my work truck?",
-    a: "Yes — personal auto excludes business use and will deny claims when you haul lumber or tools. Commercial auto covers your trucks, trailers, and lumber haulers, including hired/non-owned vehicles.",
+    q: "Can you cover mobile equipment like lifts, compressors, and welders?",
+    a: "Yes. High-value mobile equipment should be scheduled separately at agreed value so a total loss pays what it's really worth. Generic policies undervalue this gear — we list each unit individually.",
   },
   {
-    q: "Can you cover framers with prior claims or cancellations?",
-    a: "Often, yes. We have excess-and-surplus (E&S) markets for contractors with loss runs, cancellations, or tough exposures that standard markets decline.",
+    q: "Can you cover contractors with prior theft claims or cancellations?",
+    a: "Often, yes. We have excess-and-surplus (E&S) inland marine markets for contractors with loss runs, prior thefts, or cancellations that standard markets decline. Bring your loss runs and gear schedule.",
   },
   {
-    q: "How do you handle subcontracted framing work?",
-    a: "Your GL doesn't cover independent subs — they should carry their own and name you additional insured. We set up certificate tracking and additional-insured requirements so subcontracted work doesn't become your liability.",
+    q: "Do I need an installation floater too?",
+    a: "If you haul material packages that could be lost, damaged, or stolen in transit or before installation, yes. An installation floater covers materials from the supplier's truck until they're installed and accepted — closing a real gap.",
   },
   {
     q: "What happens if there's a claim?",
-    a: "You reach a person with context, not a queue. We respond within 2 hours, help you document the loss, and manage the claim with the carrier so it's paid correctly and your operation keeps moving.",
+    a: "You reach a person with context, not a queue. We respond within 2 hours, help you document the loss (police report for theft, photos, schedule), and manage the claim with the carrier so it's paid correctly and you can replace gear fast.",
   },
   {
-    q: "Why use a specialty framing insurance broker?",
-    a: "Framing has fall, nail-gun, saw, and theft exposures that generic carriers exclude or misprice. A specialty broker knows the class codes, the height exclusions to avoid, the markets that write framers, and how to manage a framing claim.",
+    q: "Why use a specialty tools and equipment insurance broker?",
+    a: "Tools and equipment coverage lives in the inland marine market — a specialty class most generic agents don't understand. A specialty broker knows which carriers write scheduled gear at replacement cost and how to manage a tools-theft claim so it pays.",
   },
 ];
 
@@ -246,36 +246,36 @@ export function buildPageFaqs(specific: FAQItem[], count = 20): FAQItem[] {
    ============================================================ */
 export const LOCATION_FAQ_BASE: FAQItem[] = [
   {
-    q: "Are you licensed to insure framing contractors in this region?",
-    a: "Yes. Contractors Choice Agency is licensed in all 50 states, so we can bind and service framing contractor coverage in this region and coordinate certificates for work that crosses state lines.",
+    q: "Are you licensed to insure contractor tools and equipment in this region?",
+    a: "Yes. Contractors Choice Agency is licensed in all 50 states, so we can bind and service tools & equipment coverage in this region and coordinate coverage for crews whose gear crosses state lines.",
   },
   {
-    q: "Do regional building codes affect my framing coverage?",
-    a: "They can. Wind, seismic, wildfire, and energy-code requirements vary regionally and influence both how you frame and how the risk is underwritten. We account for the region's code environment when structuring your program.",
+    q: "Does regional tool-theft exposure affect my premium here?",
+    a: "It can. Some regions — Texas, the Northeast, and storm-rebuild surge zones — carry higher theft class rates that influence premium and deductibles. We shop markets that write your region and structure theft deductibles so you're protected without overpaying.",
   },
   {
-    q: "Can you meet local GC and developer insurance requirements here?",
-    a: "Yes. We routinely issue the additional-insured status, waivers of subrogation, and primary/non-contributory endorsements that local general contractors and developers require before you set the first plate.",
+    q: "Can you meet local GC and rental-yard insurance requirements here?",
+    a: "Yes. We routinely issue the additional-insured status and certificates that local general contractors, developers, and equipment-rental yards require before you bring gear onto a job or rent equipment.",
   },
   {
-    q: "Do you handle seasonal framing cycles in this market?",
-    a: "We do. We right-size coverage and payroll reporting for seasonal crew scaling and can structure policies to match your region's build season, including short-term project and installed-material coverage.",
+    q: "Do you handle seasonal tool-inventory scaling in this market?",
+    a: "We do. We right-size scheduled coverage and can adjust the schedule as your tool inventory grows in the build season or shrinks in the off-season, so you're not over-insured in slow months.",
   },
   {
-    q: "How do storm and weather exposure affect my premium here?",
-    a: "Wind, named-storm, hail, and freeze exposures vary by region and affect builder's risk, property, and auto pricing. We shop markets that write your region and structure deductibles so you're protected without overpaying.",
+    q: "How do storm and weather exposure affect my equipment coverage here?",
+    a: "Wind, named-storm, and hail exposures vary by region and can affect mobile equipment and installation floater pricing. We shop markets that write your region and structure deductibles so you're protected without overpaying for weather exposure.",
   },
   {
-    q: "Can you add a project-specific builder's risk for a local build?",
-    a: "Yes. For larger or unusual local projects we can write a project-specific builder's risk policy that covers the structure and materials during construction, in addition to your ongoing program.",
+    q: "Can you add coverage for a specific high-value piece of equipment locally?",
+    a: "Yes. For a newly acquired lift, compressor, welder, or specialty unit we can schedule it at agreed value quickly — often the same day — so the gear is covered from the moment you take possession.",
   },
   {
-    q: "Do you provide certificates to local building departments and GCs?",
-    a: "Yes. We supply the certificates of insurance, license bonds, and additional-insured endorsements that local building departments, GCs, and developers require — turned around fast.",
+    q: "Do you provide certificates to local rental yards and building departments?",
+    a: "Yes. We supply the certificates of insurance and additional-insured endorsements that local equipment-rental yards, building departments, and GCs require — turned around fast so your schedule isn't held up.",
   },
   {
     q: "Who services my policy if my crew works across multiple regions?",
-    a: "We do — coast to coast. Because we're licensed everywhere, a single program can follow your crews across regional lines, with one point of contact for certificates, endorsements, and claims.",
+    a: "We do — coast to coast. Because we're licensed everywhere, a single tools & equipment program can follow your gear across regional lines, with one point of contact for schedules, certificates, and claims.",
   },
 ];
 
@@ -291,352 +291,409 @@ export interface ServiceDetail {
 }
 
 export const SERVICE_DETAIL: Record<string, ServiceDetail> = {
-  "general-liability": {
+  "tools-and-equipment": {
     heroBlurb:
-      "Third-party bodily injury and property damage protection for your framing crews, jobsites, and subcontracted work — including products-completed operations and the additional-insured certificates that get you onto the project.",
+      "Scheduled tools-and-equipment coverage for the nail guns, miter saws, lasers, generators, and compressors that walk off jobsites — written at replacement cost so a theft doesn't come out of your pocket. The core policy every gear-heavy contractor needs.",
     whatsCovered: [
-      "Bodily injury to visitors, other trades, and the public on your jobsite",
-      "Property damage caused by your framing operations or subcontracted work",
-      "Products-completed operations for framing you've finished",
-      "Defense costs and legal fees when you're named in a lawsuit",
-      "Additional-insured status for the GCs and developers you frame for",
-      "Fire damage to property you're working on (with proper limits)",
+      "Pneumatic and cordless nail guns, miter saws, and circular saws",
+      "Generators, air compressors, and laser levels",
+      "Theft from jobsites, trucks, trailers, and storage",
+      "Damage, fire, vandalism, and accidental loss",
+      "Replacement cost — not depreciated actual cash value",
+      "Gear that travels between jobs and lives off-premises",
     ],
     whoItsFor: [
-      "Residential framing contractors and rough carpentry crews",
-      "Commercial and multifamily framing subcontractors",
-      "Crews that frame over two stories or set roof trusses",
-      "Framers who subcontract portions of their work",
-      "Any framer whose GC requires additional-insured certificates",
+      "Contractors with meaningful investment in power tools",
+      "Crews whose gear lives on trucks and jobsites",
+      "Any contractor who's had tools stolen or damaged",
+      "Trades with high per-tool value — framers, electricians, plumbers, HVAC",
+      "Crews working in high-theft regions or on shared jobsites",
     ],
     whyCca: [
-      "GL placed WITHOUT the height exclusions that haunt budget policies",
-      "Additional-insured and waiver-of-subrogation endorsements issued fast",
-      "Limits scaled to what your commercial contracts actually require",
+      "Tools scheduled at replacement cost — not depreciated to pennies",
+      "Theft coverage that follows your gear wherever it goes",
+      "Fast claims handling so you can replace gear and keep working",
     ],
     faqs: [
       {
-        q: "What does general liability cover for a framing contractor?",
-        a: "GL covers third-party bodily injury and property damage caused by your framing operations — a visitor hurt on your jobsite, damage you cause to adjacent property, or a completed-operations claim after the frame is up. It does not cover your own injuries (that's workers' comp) or your own tools (that's a tools floater).",
+        q: "What does a tools and equipment floater cover?",
+        a: "A tools & equipment floater covers your contractor gear — nail guns, saws, lasers, generators, compressors, and hand tools — against theft, damage, fire, vandalism, and accidental loss, on the jobsite, in transit, and on your truck. It follows the gear wherever it goes, which is exactly where tools live and get stolen.",
       },
       {
-        q: "Does framing GL cover work above two stories?",
-        a: "It should. Many low-cost contractor policies exclude work over one or two stories or exclude roof work entirely. Because framing is a height trade, we place GL that specifically covers two- and three-story framing, truss setting, and roof work.",
+        q: "Does general liability cover my stolen nail guns and saws?",
+        a: "No. GL and commercial property do not cover tools off-premises. Tools are an inland marine (tools & equipment) coverage. We schedule your nail guns, saws, generators, and compressors so theft and damage are covered — closing the gap GL leaves wide open.",
       },
       {
-        q: "What's the difference between GL and workers' comp for framers?",
-        a: "GL covers third parties (other people and their property). Workers' comp covers your own employees if they're hurt on the job. You need both — GCs require GL certificates, and state law requires workers' comp for your W-2 crew.",
+        q: "How is a tools floater different from commercial property?",
+        a: "Commercial property covers gear at a fixed location like your shop. A tools & equipment (inland marine) floater follows your tools wherever they go — jobsite, truck, trailer — which is where contractor tools actually live and get stolen. If your gear moves, you need a floater, not property.",
       },
       {
-        q: "Why do GCs require me to add them as additional insured?",
-        a: "Additional-insured status extends your GL to the GC for your operations, so if a claim arises from your framing work your policy responds first. It's a standard contract requirement, along with a waiver of subrogation and primary/non-contributory language. We issue these routinely.",
+        q: "Is tools coverage replacement cost or actual cash value?",
+        a: "We write tools & equipment at replacement cost so a stolen nailer or saw is replaced new, not depreciated to pennies. ACV policies can pay $150 for a $600 nailer. Replacement cost is the difference between staying on schedule and buying gear out of pocket.",
       },
       {
-        q: "Does GL cover fire damage to the building I'm framing?",
-        a: "Partially. GL typically includes limited coverage for fire damage to property in your care (often a $50,000 or $100,000 sublimit), but the structure itself should be covered under builder's risk. We coordinate both so the frame is protected during construction.",
+        q: "What is scheduled tools coverage?",
+        a: "Scheduled coverage lists each major piece of gear individually — make, model, serial number, and replacement value. At claim time the schedule removes depreciation and proof-of-ownership disputes. We help you build the schedule and keep it current as you add gear.",
       },
       {
-        q: "Are framing subcontractors covered under my GL?",
-        a: "No. Independent subcontractors need their own GL and should name you additional insured. If an uninsured sub causes a loss, you can be pulled in. We help set up certificate tracking so subcontracted work doesn't become your liability.",
+        q: "Are tools stolen from my truck covered?",
+        a: "Yes — a tools & equipment floater covers theft from your truck, trailer, and jobsite, subject to the policy terms and deductible. Some policies carry a higher theft-from-unattended-vehicle deductible, which we review and structure to minimize your out-of-pocket exposure.",
       },
       {
-        q: "What GL limits do framing contractors need?",
-        a: "Most residential framers carry $1M per occurrence / $2M general aggregate. Commercial and multifamily GCs often require $2M or $5M limits — we add an umbrella to reach them when needed.",
+        q: "How do I value my tools for a floater?",
+        a: "We build a schedule listing each major tool with its replacement value — what it would cost to buy new today. You can update the schedule as you add gear. Keep receipts, photos, and serial numbers; accurate scheduling keeps premiums fair and claims fast.",
       },
       {
-        q: "How is framing GL premium calculated?",
-        a: "GL for contractors is usually rated on payroll and subcontractor cost, sometimes on revenue. Accurate classification and documented loss control keep the premium fair. We document your real operation so you're not rated on a worst-case guess.",
+        q: "Does the floater cover borrowed or rented tools?",
+        a: "It can. We can extend coverage to borrowed and rented tools, which matters if you rent specialty gear for specific jobs. Rental yards often require proof of insurance — we issue certificates naming them as required.",
       },
     ],
   },
-  "workers-compensation": {
+  "scheduled-equipment": {
     heroBlurb:
-      "Coverage for the injury patterns unique to framing crews — falls from height, nail-gun and saw lacerations, struck-by and material-handling injuries — with correct class 5403 coding so you're not overpaying or underinsured.",
+      "Scheduled coverage for high-value and mobile equipment — boom lifts, towable compressors, welder generators, and specialty gear — listed individually with agreed value so a total loss pays what the equipment is really worth.",
     whatsCovered: [
-      "Medical treatment for on-the-job framing injuries",
-      "Disability and lost-wage benefits for injured crew members",
-      "Fall-from-height and scaffold injuries",
-      "Nail-gun, saw, and laceration claims",
-      "Struck-by and material-handling injuries",
-      "Employers' liability (Part Two) protection",
+      "Boom lifts, scissor lifts, and towable aerial equipment",
+      "Towable and skid-mount air compressors",
+      "Welder generators and plasma cutters",
+      "Specialty and high-value contractor equipment",
+      "Agreed value — no depreciation dispute at claim time",
+      "Theft, damage, transport loss, and breakdown pairing",
     ],
     whoItsFor: [
-      "Framing contractors with W-2 employees",
-      "Crews working at height on trusses, walls, and roofs",
-      "Sole proprietors who elect to cover themselves",
-      "Any framer required by state law to carry workers' comp",
+      "Contractors owning high-value mobile equipment",
+      "Crews with lifts, compressors, or welder generators",
+      "Operations renting or leasing expensive specialty gear",
+      "Any contractor whose generic policy undervalues equipment",
     ],
     whyCca: [
-      "Correct NCCI class 5403 coding — not generic construction codes",
-      "Fall-protection documentation that supports better rates",
-      "Aggressive claims management to protect your experience modifier",
+      "Each unit scheduled at agreed value — not generic book value",
+      "Mobile-equipment specialists who know lift and compressor markets",
+      "Paired with equipment breakdown for internal failures",
     ],
     faqs: [
       {
-        q: "What is the workers' comp class code for framing?",
-        a: "Wood framing and rough carpentry is most often coded under NCCI class 5403 (Carpentry). Some operations split out roof truss setting, siding, or interior finish work into separate codes. Correct coding keeps your premium fair and prevents audit surprises.",
+        q: "What is scheduled equipment coverage?",
+        a: "Scheduled equipment coverage lists each high-value or mobile unit individually — boom lifts, towable compressors, welder generators — with an agreed value. At claim time, the policy pays the agreed amount with no depreciation fight. It's the right structure for gear that generic policies undervalue.",
       },
       {
-        q: "How much is workers' comp for a framing contractor?",
-        a: "Workers' comp is rated on payroll by class code. Framing (5403) carries a higher rate than office work because of the fall and tool exposure, but good loss control and a clean experience modifier meaningfully reduce it. We quote based on your actual payroll and history.",
+        q: "Why do I need scheduled coverage for a lift or compressor?",
+        a: "Generic property and blanket policies often cap per-item payouts or pay book value, which can be far below what a boom lift or towable compressor is worth. Scheduled coverage at agreed value pays the real value on a total loss — the difference between replacing the unit and taking a large loss.",
       },
       {
-        q: "Do owner-operators need to carry workers' comp on themselves?",
-        a: "It depends on your state and business structure. Many states exempt sole proprietors and single-member LLC owners, but you can elect coverage, and if you have any W-2 employees you must carry it. We'll tell you exactly what your state requires.",
+        q: "What is agreed value and how is it different from actual cash value?",
+        a: "Agreed value means you and the insurer agree on the equipment's value up front (documented on the schedule), and that's what pays on a total loss. Actual cash value (ACV) pays depreciated value at claim time — often dramatically less for older equipment. Agreed value removes the depreciation fight.",
       },
       {
-        q: "Will one claim make my rates unaffordable?",
-        a: "A serious claim affects your experience modifier, but the impact is bounded and improves over time. The best defense is correct class coding, a documented fall-protection program, and aggressive claim management — all of which we provide to keep your mod down.",
+        q: "Does scheduled equipment coverage include theft?",
+        a: "Yes. Scheduled equipment covers theft, transport damage, and many accidental losses, subject to the policy terms and deductible. Because mobile equipment is frequently towed between sites and parked at yards, theft coverage is one of its most-used features.",
       },
       {
-        q: "How do you handle fall-from-height claims?",
-        a: "Falls are the most common serious framing injury. We respond within 2 hours, make sure the injured framer gets care fast, and manage the claim with the carrier to control cost and get the crew member back to work. Good handling protects both the worker and your modifier.",
+        q: "How do I value a boom lift or compressor for scheduling?",
+        a: "We document each unit — make, model, year, serial number, and current market value (often supported by a dealer quote or recent appraisal). That value goes on the schedule as the agreed amount. We update it as you add, sell, or replace equipment.",
       },
       {
-        q: "What if my crew works in multiple states?",
-        a: "Workers' comp follows where the work is performed, and each state has its own rules and rates. Because we're licensed in all 50 states, we structure a program that covers your crews across state lines without gaps.",
+        q: "Does scheduled equipment cover breakdowns too?",
+        a: "Scheduled equipment covers external loss (theft, damage). Internal mechanical and electrical failures need equipment breakdown coverage, which we pair with scheduled equipment so both the 'stolen or crashed' exposure and the 'blew up internally' exposure are covered.",
       },
       {
-        q: "Are 1099 subcontractors covered under my workers' comp?",
-        a: "Generally no — true independent contractors carry their own. But many states apply a 'statutory employee' test, and misclassifying W-2 workers as 1099 can leave you liable. We help you classify workers correctly and document it.",
+        q: "Is rented or leased mobile equipment covered?",
+        a: "It can be. We can extend scheduled coverage to rented and leased equipment, which matters if you rent lifts or compressors for specific jobs. Rental companies require proof of insurance — we issue certificates naming them as required.",
       },
       {
-        q: "How do audits work for framing workers' comp?",
-        a: "At policy end, the carrier audits your actual payroll by class code and true-ups the premium. If your payroll was underreported you'll owe more; if overreported, you'll get a return. We help you classify payroll correctly up front to avoid audit shock.",
+        q: "How fast are scheduled-equipment claims paid?",
+        a: "Because the value is agreed up front on the schedule, total-loss claims pay quickly once the loss is documented (police report for theft, photos and damage assessment for damage). No depreciation dispute means faster payment — so you can replace the unit and keep the job moving.",
+      },
+    ],
+  },
+  "installation-floater": {
+    heroBlurb:
+      "Coverage for materials and supplies while in transit to the jobsite and until they're installed and accepted — closing the gap between the supplier's truck and the structure so a lost, damaged, or stolen material package is covered.",
+    whatsCovered: [
+      "Materials and supplies in transit to the jobsite",
+      "Materials at staging areas and on site before installation",
+      "Installed materials until accepted by the owner",
+      "Theft, fire, damage, and weather loss during transit and install",
+      "Coverage that follows the materials, not a fixed location",
+      "Coordinated with builder's risk to avoid gaps",
+    ],
+    whoItsFor: [
+      "Contractors responsible for materials they install",
+      "Crews hauling material packages between supplier and site",
+      "Operations whose GC's master policy leaves transit gaps",
+      "Contractors working in high-theft or remote staging areas",
+    ],
+    whyCca: [
+      "Closes the gap between delivered materials and installed work",
+      "Written to follow materials through transit and installation",
+      "Coordinated with builder's risk so no gap goes uncovered",
+    ],
+    faqs: [
+      {
+        q: "What is an installation floater?",
+        a: "An installation floater covers materials and supplies while in transit to the jobsite and until they're installed and accepted by the owner. It closes the gap between the supplier's truck and the structure — covering theft, damage, and loss during the most exposed window in a material's journey.",
+      },
+      {
+        q: "Why do contractors need an installation floater?",
+        a: "Materials in transit and sitting on a jobsite are vulnerable — theft, fire, weather, and damage can wipe out a material package before it's installed. Builder's risk often only covers materials once on site and installed; an installation floater covers the transit and pre-install window that builder's risk misses.",
+      },
+      {
+        q: "Is an installation floater different from builder's risk?",
+        a: "They overlap but cover different windows. Builder's risk (course of construction) covers the structure during the build. An installation floater covers the contractor's materials in transit to the site and during installation — windows the GC's master builder's risk may not extend to. We coordinate both.",
+      },
+      {
+        q: "Does an installation floater cover materials stolen from my truck?",
+        a: "Yes. An installation floater covers materials in transit — including theft from your truck or trailer while hauling materials to the jobsite — and on the site before installation, subject to the policy terms. Without it, stolen materials often fall into a coverage gap.",
+      },
+      {
+        q: "Who buys the installation floater — contractor, GC, or owner?",
+        a: "It depends on the contract. Often the owner or GC carries a master builder's risk, but gaps around transit and the contractor's responsibility for delivered materials are common. When you're responsible for materials you've ordered or hauled, your own installation floater makes sure you're protected.",
+      },
+      {
+        q: "How is an installation floater rated?",
+        a: "Premium is typically based on the value of materials in transit and installed over the policy period, sometimes as a rate per $1,000 of installation value. Accurate reporting of material flow keeps the premium fair and the coverage adequate. We help you report it correctly.",
+      },
+      {
+        q: "Does an installation floater cover installed materials after they're in?",
+        a: "Coverage typically continues until the materials are installed and accepted by the owner or until builder's risk takes over — at which point the structure's coverage transitions. We coordinate the two so there's no gap and no double-coverage confusion.",
+      },
+      {
+        q: "Can I add an installation floater for a single project?",
+        a: "Yes. For a single large or unusual project, we can write a project-specific installation floater alongside your ongoing program — sized to that project's material value and timeline. Tell us about the project and we'll structure it.",
+      },
+    ],
+  },
+  "inland-marine": {
+    heroBlurb:
+      "Broader inland marine coverage for equipment and goods in transit, at off-site storage, and on jobsites — the flexible coverage class that follows your gear wherever the work takes it, beyond what a fixed property policy will cover.",
+    whatsCovered: [
+      "Equipment and goods in transit between jobsites",
+      "Gear at off-site storage and staging yards",
+      "Tools and equipment on multiple jobsites",
+      "Scheduled tools, mobile equipment, and installation floaters",
+      "Coverage that follows the property, not a fixed location",
+      "Flexible limits and structures for mobile operations",
+    ],
+    whoItsFor: [
+      "Contractors whose gear and materials move constantly",
+      "Crews working multiple jobsites simultaneously",
+      "Operations with off-site storage or staging",
+      "Any contractor whose property exposure isn't fixed",
+    ],
+    whyCca: [
+      "Inland marine specialists — not generic property agents",
+      "Coverage structured to follow your gear wherever it goes",
+      "Coordinated tools, equipment, and transit coverage under one program",
+    ],
+    faqs: [
+      {
+        q: "What is inland marine insurance for contractors?",
+        a: "Inland marine is the coverage class for property that moves — tools, equipment, materials in transit, and gear on jobsites. It's the flexible foundation that scheduled tools floaters, installation floaters, and mobile-equipment coverage are built on. For contractors whose gear rarely sits still, it's the right coverage class.",
+      },
+      {
+        q: "Why is it called inland marine if I'm not on the water?",
+        a: "The name is historical — it originated with ocean marine cargo insurance and expanded to cover goods moving over land (inland). Today inland marine covers all kinds of mobile, transit, and jobsite property, including contractor tools and equipment. The 'marine' label is a legacy classification, not a coverage limit.",
+      },
+      {
+        q: "How is inland marine different from commercial property?",
+        a: "Commercial property covers fixed locations — your shop, office, or yard. Inland marine covers property that moves — tools on trucks, equipment on jobsites, materials in transit. If your gear leaves a fixed location (and contractor gear always does), you need inland marine, not just property.",
+      },
+      {
+        q: "Does inland marine include tools and equipment coverage?",
+        a: "Yes — scheduled tools & equipment floaters are a type of inland marine coverage. Inland marine is the broader class that also includes installation floaters, mobile equipment, transit coverage, and other property-that-moves forms. We structure the right mix under the inland marine umbrella.",
+      },
+      {
+        q: "What does inland marine cover that other policies don't?",
+        a: "Inland marine covers property off-premises, in transit, and at temporary locations — exposures that fixed property policies exclude or sharply limit. For contractors, that means tools stolen from a truck, equipment damaged on a jobsite, and materials lost in transit. It's the coverage that follows the work.",
+      },
+      {
+        q: "How is inland marine premium calculated?",
+        a: "Premium depends on the type and value of property covered, how and where it moves, the regions and theft class it operates in, and your loss history. Scheduled tools are rated on gear value; installation floaters on material flow; mobile equipment on agreed value. We document your operation accurately.",
+      },
+      {
+        q: "Do I need inland marine if I already have general liability?",
+        a: "Yes. GL covers third-party injury and damage — not your own gear. Tools, equipment, and materials in transit are inland marine exposures that GL does not address. Most gear-heavy contractors need both: GL for liability, inland marine for the gear itself.",
+      },
+      {
+        q: "Can inland marine cover gear stored off-site or at a yard?",
+        a: "Yes. Inland marine can extend to gear at off-site storage, staging yards, and supplier locations — not just on the active jobsite. If you keep inventory or equipment at multiple locations, we structure coverage so every location where gear sits is protected.",
+      },
+    ],
+  },
+  "equipment-breakdown": {
+    heroBlurb:
+      "Coverage for the internal mechanical and electrical failures that standard property excludes — blown compressors, fried generator windings, burned-up motors, and shorted electronics — so a breakdown doesn't sideline your gear for weeks.",
+    whatsCovered: [
+      "Internal mechanical failures (motors, pumps, compressors)",
+      "Electrical failures and short circuits",
+      "Generator winding and alternator burnouts",
+      "Pressure-vessel and boiler explosions",
+      "Computer and electronic control board failures",
+      "Cost to repair or replace, plus expediting and business income",
+    ],
+    whoItsFor: [
+      "Contractors relying on compressors, generators, and powered equipment",
+      "Operations with motors, pumps, and pressure vessels",
+      "Crews whose downtime costs money when gear breaks",
+      "Any contractor whose property policy excludes internal failure",
+    ],
+    whyCca: [
+      "Covers the failures standard property excludes",
+      "Paired with scheduled equipment for full gear protection",
+      "Includes business income for the downtime a breakdown causes",
+    ],
+    faqs: [
+      {
+        q: "What does equipment breakdown insurance cover?",
+        a: "Equipment breakdown (formerly boiler and machinery) covers internal mechanical and electrical failures — blown compressor motors, fried generator windings, burned-out pumps, shorted control boards, and pressure-vessel failures — that standard property policies exclude. It pays to repair or replace the equipment, plus related business income loss.",
+      },
+      {
+        q: "How is equipment breakdown different from tools & equipment coverage?",
+        a: "Tools & equipment (inland marine) covers theft and external damage. Equipment breakdown covers internal mechanical and electrical failures. A compressor stolen off your truck is a tools claim; the same compressor blowing a motor internally is an equipment-breakdown claim. Gear-heavy contractors need both.",
+      },
+      {
+        q: "Doesn't my property policy cover equipment that breaks down?",
+        a: "Generally no. Standard commercial property specifically excludes internal mechanical and electrical breakdown — it covers external perils like fire, wind, and theft. Equipment breakdown fills that gap. Without it, a $4,000 compressor motor failure comes out of your pocket.",
+      },
+      {
+        q: "What kinds of contractor equipment does breakdown cover?",
+        a: "It covers motors, pumps, compressors, generators, welders, plasma cutters, pressure vessels, computerized control boards, and other internal-mechanical or electrical equipment. If it has a motor, a winding, a board, or a pressure vessel, equipment breakdown generally applies.",
+      },
+      {
+        q: "Does equipment breakdown cover business interruption?",
+        a: "Yes — most equipment-breakdown forms include business income coverage for the income you lose when covered equipment is down. If a blown compressor sidelines a job for a week, the lost income and extra expense (renting a replacement) can be covered. We size the period to your real recovery time.",
+      },
+      {
+        q: "How much does equipment breakdown coverage cost?",
+        a: "Equipment breakdown is typically inexpensive — a small fraction of your overall equipment program — because internal failures are less frequent than theft. The coverage-to-cost ratio is excellent for contractors who depend on powered gear. We quote it alongside your tools and scheduled-equipment coverage.",
+      },
+      {
+        q: "Can I add equipment breakdown to a single critical piece of gear?",
+        a: "Equipment breakdown is usually written to cover a scheduled list or a class of equipment rather than a single item. We help you structure it to cover the gear whose failure would actually cost you — the compressors, generators, and powered equipment you can't work without.",
+      },
+      {
+        q: "How fast are equipment breakdown claims paid?",
+        a: "Once a licensed technician confirms the internal failure (a repair quote or diagnostic report), equipment breakdown claims typically pay quickly to repair or replace the gear. We help you document the failure and expedite the claim so your downtime is as short as possible.",
       },
     ],
   },
   "commercial-auto": {
     heroBlurb:
-      "Coverage for the pickup trucks, dump trailers, and lumber haulers that move your crew and materials between jobsites — including hired/non-owned vehicles and loading liability.",
+      "Coverage for the work trucks and tool trailers that haul your gear between jobsites — including theft from vehicle, trailer physical damage, and hired/non-owned auto for employees running materials in their own trucks.",
     whatsCovered: [
-      "Liability for at-fault accidents in work trucks and trailers",
+      "Liability for at-fault accidents in work trucks and tool trailers",
       "Physical damage (comprehensive & collision) to owned vehicles",
-      "Lumber and material-hauling trailers",
-      "Hired and non-owned auto for employees driving their own trucks",
+      "Tool and equipment trailers",
+      "Theft-from-vehicle exposure coordinated with tools floater",
+      "Hired and non-owned auto for employees on company business",
       "Uninsured and underinsured motorist coverage",
-      "Loading and unloading liability",
     ],
     whoItsFor: [
-      "Framers with owned pickup trucks, dump trailers, or haulers",
-      "Crews that transport lumber, trusses, and materials",
+      "Contractors with owned work trucks, vans, or tool trailers",
+      "Crews that haul gear and materials between jobsites",
       "Operations whose employees drive personal trucks for work",
-      "Any framer whose personal auto policy would deny a work claim",
+      "Any contractor whose personal auto would deny a work claim",
     ],
     whyCca: [
       "Business-use rating that won't deny your jobsite driving",
-      "Trailer and lumber-hauling exposure factored in",
-      "Fleet and single-vehicle programs available",
+      "Trailer and tool-hauling exposure factored in",
+      "Coordinated with your tools floater for theft from vehicle",
     ],
     faqs: [
       {
+        q: "Does commercial auto cover the tools in my truck?",
+        a: "No. Commercial auto covers liability for at-fault crashes and physical damage to the vehicle itself — not the cargo, tools, or equipment inside or on the truck. Tools are covered by a tools & equipment (inland marine) floater. We pair the two so both the truck and its contents are protected.",
+      },
+      {
         q: "Why can't I use my personal auto policy for my work truck?",
-        a: "Personal auto policies typically exclude business use and will deny a claim when you're hauling lumber, tools, or a crew to a jobsite. Commercial auto is rated for business use and covers the real way framers drive.",
+        a: "Personal auto policies typically exclude business use and will deny a claim when you're hauling tools, equipment, or materials to a jobsite. Commercial auto is rated for business use and covers the real way contractors drive — including the trailer and cargo exposure.",
       },
       {
-        q: "What is hired and non-owned auto, and do framers need it?",
-        a: "Hired auto covers rental vehicles; non-owned auto covers employees driving their own personal vehicles for your business. If any crew member runs materials in their own truck, you want non-owned coverage — it protects your business when their personal policy falls short.",
+        q: "What is hired and non-owned auto, and do contractors need it?",
+        a: "Hired auto covers rental vehicles; non-owned auto covers employees driving their own personal vehicles for your business. If any crew member runs materials or drives between jobs in their own truck, you want non-owned coverage — it protects your business when their personal policy falls short.",
       },
       {
-        q: "Are the lumber and tools in my truck covered by auto?",
-        a: "Liability for an at-fault crash is covered, but the cargo (lumber, tools) generally is not. Lumber in transit is an installation floater / inland marine matter, and tools are a tools & equipment matter. We coordinate all three.",
+        q: "Do I need commercial auto for a tool trailer?",
+        a: "Yes. Trailers need their own physical damage coverage and the truck towing them needs adequate liability. We schedule trailers and make sure the combined rig — truck plus loaded tool trailer — is properly insured, including the theft-from-trailer exposure.",
       },
       {
-        q: "Do I need commercial auto for a dump trailer?",
-        a: "Yes. Trailers need their own physical damage coverage and the truck towing them needs adequate liability. We schedule trailers and make sure the combined rig is properly insured.",
+        q: "Does commercial auto cover theft from my truck?",
+        a: "Liability and physical damage to the truck itself can be covered, but the stolen tools inside are not — that's a tools & equipment (inland marine) claim. We coordinate commercial auto with a tools floater so a truck break-in is fully covered: the truck repair under auto, the gear under the floater.",
       },
       {
-        q: "How is commercial auto rated for framing contractors?",
-        a: "Premium is based on the vehicles (type, value, use), drivers (records and experience), and radius of operation. Clean driving records and accurate vehicle scheduling keep the cost down.",
+        q: "How is commercial auto rated for contractors?",
+        a: "Premium is based on the vehicles (type, value, use), drivers (records and experience), radius of operation, and cargo/trailer exposure. Clean driving records and accurate vehicle scheduling keep the cost down. We document how you actually use the trucks to rate fairly.",
+      },
+      {
+        q: "Do you insure contractor fleets or just single trucks?",
+        a: "Both. Whether you run a single work truck or a fleet of haulers, vans, and tool trailers, we structure a commercial auto program that covers every vehicle and driver — and pair it with tools floaters so the contents are covered too.",
       },
       {
         q: "What if an employee gets in an accident in a company truck?",
-        a: "Commercial auto covers at-fault liability and physical damage for company vehicles. We respond fast, coordinate the claim, and get the truck repaired or replaced so the crew keeps moving.",
-      },
-      {
-        q: "Do you insure framing fleets or just single trucks?",
-        a: "Both. Whether you run a single work truck or a fleet of haulers and trailers, we structure a commercial auto program that covers every vehicle and driver.",
-      },
-      {
-        q: "Does commercial auto cover loading and unloading lumber?",
-        a: "Many policies include some loading/unloading liability, but the cargo itself is an inland marine matter. We make sure the liability gap is closed and pair the auto policy with a tools and materials floater.",
+        a: "Commercial auto covers at-fault liability and physical damage for company vehicles. We respond fast, coordinate the claim, and get the truck repaired or replaced — and we make sure the tools inside are covered under the floater so the crew keeps moving.",
       },
     ],
   },
-  "builders-risk": {
+  "general-liability": {
     heroBlurb:
-      "Course-of-construction coverage for the building you're framing — lumber packages, installed materials, and labor — against fire, wind, theft, and vandalism while the project is open to loss.",
+      "Third-party bodily injury and property damage protection for your operations — and the important clarification that GL does NOT cover your tools. We coordinate your GL with a tools floater so the gap between them is closed.",
     whatsCovered: [
-      "Lumber packages and framing materials on site",
-      "Installed framing, sheathing, and labor in place",
-      "Fire, wind, theft, and vandalism during construction",
-      "Soft costs and delayed opening (optional)",
-      "Materials in transit and at staging areas",
-      "Scaffolding, temporary structures, and forms",
+      "Bodily injury to visitors, other trades, and the public",
+      "Property damage caused by your operations",
+      "Products-completed operations for finished work",
+      "Defense costs and legal fees when you're named in a lawsuit",
+      "Additional-insured status for GCs and project owners",
+      "Personal and advertising injury coverage",
     ],
     whoItsFor: [
-      "Framers responsible for the materials they install",
-      "Contractors whose GC's master policy leaves gaps",
-      "Owners and builders on custom or spec homes",
-      "Crews framing in wildfire, wind, or high-theft areas",
+      "Any contractor with third-party exposure",
+      "Crews whose GCs require additional-insured certificates",
+      "Operations bidding commercial or multifamily work",
+      "Contractors who need to understand what GL does NOT cover",
     ],
     whyCca: [
-      "Closes the gap between delivered materials and installed work",
-      "Written for the project's real value and construction timeline",
-      "Covers the exposures GC master policies often miss",
+      "GL placed clearly with the tools gap explained up front",
+      "Additional-insured and waiver-of-subrogation endorsements fast",
+      "Coordinated with your tools floater so liability and gear are both covered",
     ],
     faqs: [
       {
-        q: "What does builder's risk cover for a framing project?",
-        a: "Builder's risk (course of construction) covers the structure and materials during construction — fire, wind, theft, vandalism, and some weather damage to the lumber package and installed framing. It protects the value of what you're building while it's most exposed.",
+        q: "Does general liability cover my stolen tools?",
+        a: "No — and this is the most common and costly misconception in contractor insurance. GL covers third-party bodily injury and property damage, not your own tools or equipment. Stolen and damaged tools are covered under a tools & equipment (inland marine) floater. We build both so the gap is closed.",
       },
       {
-        q: "If the GC carries builder's risk, do I need my own?",
-        a: "Not always, but gaps are common. The GC's master policy may not cover materials you've delivered but not yet installed, or may carry a large deductible that falls on you. We review the GC's program and add an installation floater if there's a gap.",
+        q: "What does general liability actually cover for a contractor?",
+        a: "GL covers third-party claims — a visitor hurt on your jobsite, damage you cause to someone else's property, a completed-operations claim after your work is done, and the legal defense costs when you're sued. It does not cover your own injuries (workers' comp) or your own gear (tools floater).",
       },
       {
-        q: "Does builder's risk cover lumber stolen from the jobsite?",
-        a: "Yes — theft of materials from the site is a covered cause of loss under most builder's risk forms, subject to the policy terms and deductible. Given how common lumber theft is, this is one of the most valuable parts of the coverage.",
+        q: "Why do GCs require me to add them as additional insured?",
+        a: "Additional-insured status extends your GL to the GC for your operations, so if a third-party claim arises from your work your policy responds first. It's a standard contract requirement, along with a waiver of subrogation and primary/non-contributory language. We issue these routinely and fast.",
       },
       {
-        q: "Who buys builder's risk — the framer, the GC, or the owner?",
-        a: "It varies by contract. Often the owner or GC carries a master policy. When you're responsible for materials and labor you've put in place, an installation floater or your own builder's risk makes sure you're protected regardless of what the GC carries.",
+        q: "What GL limits do contractors typically carry?",
+        a: "Most contractors carry $1M per occurrence / $2M general aggregate for GL. Commercial and multifamily GCs often require $2M or $5M limits — we add an umbrella to reach them. We size limits to what your contracts actually demand.",
       },
       {
-        q: "Does builder's risk cover wind and weather?",
-        a: "Most forms cover wind and weather damage to the structure under construction, though named-storm and hurricane coverage may carry separate deductibles in coastal zones. We structure the policy for your region's weather exposure.",
+        q: "How is contractor GL premium calculated?",
+        a: "GL is usually rated on payroll, subcontractor cost, or revenue, depending on the class. Accurate classification and documented loss control keep the premium fair. We document your real operation so you're not rated on a worst-case guess.",
       },
       {
-        q: "What are soft costs in builder's risk?",
-        a: "Soft costs are the additional expenses from a construction delay — extra interest, real estate taxes, rent, and re-engineering. Soft-cost coverage is optional but valuable on larger projects where a fire or storm could push back completion.",
+        q: "Are subcontractors covered under my GL?",
+        a: "No. Independent subcontractors need their own GL and should name you additional insured. If an uninsured sub causes a loss, you can be pulled in. We help set up certificate tracking and additional-insured requirements so subcontracted work doesn't become your liability.",
       },
       {
-        q: "How is the builder's risk limit determined?",
-        a: "The limit should equal the completed value of the project (materials, labor, and profit) at the time of loss. We help you set the limit correctly so the structure is fully insured throughout the build.",
+        q: "If GL doesn't cover my tools, what does?",
+        a: "A tools & equipment (inland marine) floater covers your tools, scheduled at replacement cost, on the jobsite, in transit, and on your truck. We coordinate GL (for liability) with a tools floater (for your gear) so you have the right coverage in the right place — and no gaps.",
       },
       {
-        q: "Does builder's risk cover fire damage during framing?",
-        a: "Yes. Fire is a covered peril, and a framed structure full of combustible lumber is exactly when the exposure peaks. Builder's risk covers fire damage to the structure and materials during construction.",
-      },
-    ],
-  },
-  "inland-marine-equipment": {
-    heroBlurb:
-      "Scheduled tools-and-equipment coverage for the pneumatic nailers, miter saws, generators, and compressors that walk off jobsites — plus installation floaters that cover materials in transit to the frame.",
-    whatsCovered: [
-      "Pneumatic nail guns, miter saws, and circular saws",
-      "Generators, air compressors, and lasers",
-      "Theft from jobsites, trucks, and trailers",
-      "Materials in transit to the jobsite (installation floater)",
-      "Mobile equipment and small tools",
-      "Replacement cost on scheduled gear",
-    ],
-    whoItsFor: [
-      "Framers with significant investment in power tools",
-      "Crews whose gear lives on trucks and jobsites",
-      "Contractors responsible for materials in transit",
-      "Any framer who's had tools stolen",
-    ],
-    whyCca: [
-      "Tools scheduled at replacement cost — not depreciated",
-      "Theft coverage that follows your gear wherever it goes",
-      "Installation floaters that close the transit gap",
-    ],
-    faqs: [
-      {
-        q: "Does general liability cover my stolen nail guns and saws?",
-        a: "No. GL and commercial property do not cover tools off-premises. Tools are an inland marine (tools & equipment) coverage. We schedule your nail guns, saws, generators, and compressors so theft is covered.",
-      },
-      {
-        q: "How is a tools floater different from commercial property?",
-        a: "Commercial property covers gear at a fixed location like your shop. A tools & equipment (inland marine) floater follows your tools wherever they go — jobsite, truck, trailer — which is where framing tools actually live and get stolen.",
-      },
-      {
-        q: "Is tools coverage replacement cost or actual cash value?",
-        a: "We write tools & equipment at replacement cost so a stolen nailer or saw is replaced new, not depreciated to pennies. That's the difference between staying on schedule and buying gear out of pocket.",
-      },
-      {
-        q: "What is an installation floater and why do framers need it?",
-        a: "An installation floater covers materials (lumber, trusses, hardware) while in transit to the jobsite and until they're installed and covered by builder's risk. It closes the gap between the supplier's truck and the structure.",
-      },
-      {
-        q: "How do I value my tools for a floater?",
-        a: "We build a schedule listing each major tool and its replacement value. You can update the schedule as you add gear. Accurate scheduling keeps premiums fair and claims fast.",
-      },
-      {
-        q: "Are tools stolen from my truck covered?",
-        a: "Yes — a tools & equipment floater covers theft from your truck, trailer, and jobsite, subject to the policy terms and deductible. Given how often tools are stolen from vehicles, this is essential for framers.",
-      },
-      {
-        q: "Does the floater cover borrowed or rented tools?",
-        a: "It can. We can extend coverage to borrowed and rented equipment, which matters if you rent lifts, compressors, or specialty tools for a job. Tell us what you use and we'll structure it.",
-      },
-      {
-        q: "How fast are tools claims paid?",
-        a: "Once you provide a police report (for theft) and the schedule, tools claims are typically paid quickly so you can replace gear and get back to work. We help you document to keep it moving.",
-      },
-    ],
-  },
-  "property": {
-    heroBlurb:
-      "All-risk commercial property coverage for the framer's shop, storage yard, wall-panel facility, and lumber/inventory — built for the combustible loading and hot-work exposures of a wood operation.",
-    whatsCovered: [
-      "Shop, office, and storage buildings",
-      "Wall-panel and truss fabrication facilities",
-      "Lumber and material inventory",
-      "Office equipment and records",
-      "Equipment breakdown for shop machinery",
-      "Business interruption during restoration",
-    ],
-    whoItsFor: [
-      "Framers with a shop, yard, or prefab facility",
-      "Contractors carrying lumber and material inventory",
-      "Operations with wall-panel or truss production",
-      "Any framer whose business depends on a fixed location",
-    ],
-    whyCca: [
-      "Combustible-loading and hot-work exposure priced correctly",
-      "Equipment and inventory at replacement cost",
-      "Business interruption with adequate restoration period",
-    ],
-    faqs: [
-      {
-        q: "What does commercial property cover for a framing business?",
-        a: "It covers your shop, yard, prefab facility, lumber and material inventory, and office equipment against fire, theft, wind, and other covered perils — the fixed-location assets your business depends on.",
-      },
-      {
-        q: "Does commercial property cover my lumber inventory?",
-        a: "Yes. Lumber and material inventory stored at your yard or shop can be scheduled and covered at your location. Materials on the jobsite are a builder's risk / installation floater matter — we coordinate both.",
-      },
-      {
-        q: "Will a property policy cover a wall-panel plant?",
-        a: "Yes, and we tailor it — wall-panel and truss fabrication add manufacturing property and equipment-breakdown exposures. We schedule the production equipment and include business interruption for the restoration period.",
-      },
-      {
-        q: "Why does combustible loading matter for my shop?",
-        a: "A shop full of lumber and sawdust is a higher fire exposure than a typical office, and that affects underwriting and pricing. We document your housekeeping and fire-protection program to get the best terms.",
-      },
-      {
-        q: "Is equipment breakdown included?",
-        a: "It can be. Equipment breakdown covers internal mechanical and electrical failures of shop machinery — saws, compressors, panel equipment — that standard property excludes. We include it for operations with significant machinery.",
-      },
-      {
-        q: "Does property cover business interruption if my shop burns?",
-        a: "Business interruption coverage pays your lost income and ongoing expenses during restoration. For a framing business, that can mean the difference between surviving a fire and closing. We size the restoration period to your real recovery time.",
-      },
-      {
-        q: "Replacement cost or actual cash value for my property?",
-        a: "We recommend replacement cost so a loss restores your shop and equipment new, not depreciated. For specialized or older equipment, ACV can leave you dramatically underinsured.",
-      },
-      {
-        q: "How is commercial property rated for framers?",
-        a: "Premium reflects construction type, protection (sprinklers, alarms), occupancy, lumber inventory value, and fire exposure. Good housekeeping and documented protection programs improve both terms and price.",
+        q: "Can you issue certificates of insurance fast?",
+        a: "Yes. Once your program is bound we turn around additional-insured certificates, waivers of subrogation, and primary/non-contributory endorsements — usually within minutes. GCs and project owners often won't let you start work without proof of coverage.",
       },
     ],
   },
   "umbrella-excess-liability": {
     heroBlurb:
-      "Layered limits above your GL, auto, and employers' liability — essential when a fall, a framed-structure fire, or a multi-party jobsite loss could otherwise exhaust your primary coverage.",
+      "Layered limits above your general liability, auto, and employers' liability — essential when a stolen-equipment loss, a jobsite injury, or a multi-party claim could otherwise exhaust your primary coverage and your gear investment.",
     whatsCovered: [
       "Additional limits above GL, commercial auto, and employers' liability",
       "Limits from $2M up to $10M+ for catastrophic claims",
@@ -645,105 +702,48 @@ export const SERVICE_DETAIL: Record<string, ServiceDetail> = {
       "Defense contributions on large complex claims",
     ],
     whoItsFor: [
-      "Framers whose GC contracts require higher limits",
-      "Crews on commercial and multifamily projects",
-      "Contractors with significant assets to protect",
-      "Any framer whose primary limits no longer match exposure",
+      "Contractors whose GC contracts require higher limits",
+      "Crews on commercial, multifamily, or public projects",
+      "Operations with significant assets or gear investment to protect",
+      "Any contractor whose primary limits no longer match exposure",
     ],
     whyCca: [
       "Limits layered cleanly above your underlying program",
       "Up to $10M+ available for high-exposure operations",
-      "Priced for framing contractors, not generic small business",
+      "Priced for contractors, not generic small business",
     ],
     faqs: [
       {
-        q: "What does an umbrella policy cover for a framing contractor?",
-        a: "An umbrella adds liability limits above your general liability, commercial auto, and employers' liability. If a serious fall, fire, or jobsite loss exhausts your primary policy, the umbrella pays the layers above — protecting your assets and your contracts.",
+        q: "What does an umbrella policy cover for a contractor?",
+        a: "An umbrella adds liability limits above your general liability, commercial auto, and employers' liability. If a serious jobsite injury, a multi-party loss, or a large property claim exhausts your primary policy, the umbrella pays the layers above — protecting your assets and your contracts.",
       },
       {
-        q: "How much umbrella coverage does a framer need?",
-        a: "It's driven by your largest realistic loss and your contract requirements. Many commercial and multifamily GCs require $2M–$5M total limits. We model your worst-case scenarios and size the umbrella to what your work actually demands.",
+        q: "How much umbrella coverage does a contractor need?",
+        a: "It's driven by your largest realistic loss and your contract requirements. Many commercial and multifamily GCs require $2M-$5M total limits. We model your worst-case scenarios and size the umbrella to what your work actually demands.",
       },
       {
-        q: "Does the umbrella sit over workers' comp too?",
-        a: "It sits over employers' liability (Part Two of workers' comp), not the workers' comp benefit itself. That matters for serious injury claims that exceed primary employers' liability limits.",
+        q: "Does the umbrella sit over my tools and equipment coverage?",
+        a: "No — an umbrella sits over liability policies (GL, auto, employers' liability), not over property/inland marine coverages like a tools floater. It protects you from large liability claims, while your tools floater protects your gear itself. They address different exposures.",
       },
       {
         q: "Why would a GC require an umbrella?",
-        a: "Large projects and commercial contracts shift risk down to subcontractors and require proof of high limits — often $2M–$5M. Carrying an umbrella lets you bid that work and protects you from a catastrophic claim.",
+        a: "Large projects and commercial contracts shift risk down to subcontractors and require proof of high limits — often $2M-$5M. Carrying an umbrella lets you bid that work and protects you from a catastrophic liability claim that would otherwise threaten your business.",
       },
       {
         q: "How is umbrella premium calculated?",
-        a: "Umbrella premium is a fraction of your underlying liability cost and reflects your operations, underlying limits, and the umbrella layer chosen. It's one of the most cost-effective ways to add protection.",
+        a: "Umbrella premium is a fraction of your underlying liability cost and reflects your operations, underlying limits, and the umbrella layer chosen. It's one of the most cost-effective ways to add protection — often hundreds of dollars per million of additional limit.",
       },
       {
         q: "Can I add umbrella limits mid-policy if a contract requires it?",
-        a: "Often yes. If a new project requires higher limits, we can frequently increase the umbrella (subject to underwriting) so you can take the work. Tell us the requirement and we'll move.",
-      },
-      {
-        q: "Does the umbrella cover jobsite fires and product claims?",
-        a: "Yes. An umbrella responds to the same types of claims your underlying GL covers — including framed-structure fires and completed-operations claims — once primary limits are exhausted.",
+        a: "Often yes. If a new project requires higher limits, we can frequently increase the umbrella (subject to underwriting) so you can take the work. Tell us the requirement and we'll move fast.",
       },
       {
         q: "What's the difference between umbrella and excess liability?",
         a: "A true umbrella can drop down to cover some claims not covered by underlying policies; a straight excess policy simply adds limits on top of the same coverage. We place the form that fits your exposure and budget.",
       },
-    ],
-  },
-  "contractors-bonds": {
-    heroBlurb:
-      "The bonds that keep you legal and competitive — state contractor license bonds, permit bonds, and bid/performance bonds for the GCs and developers who require them before you set the first plate.",
-    whatsCovered: [
-      "State contractor license bonds (CSLB, TREC, ROC, and more)",
-      "Permit and code-compliance bonds",
-      "Bid bonds for project pursuit",
-      "Performance and payment bonds",
-      "Supply bonds for material commitments",
-      "Court and miscellaneous bonds",
-    ],
-    whoItsFor: [
-      "Framers required to hold a state contractor license bond",
-      "Contractors bidding bonded public or commercial work",
-      "Crews needing permit bonds to pull jobsite permits",
-      "Any framer whose GC requires a performance bond",
-    ],
-    whyCca: [
-      "License bonds written for your state's specific requirements",
-      "Bid and performance bond capacity for larger projects",
-      "Bonds coordinated with your insurance program under one roof",
-    ],
-    faqs: [
       {
-        q: "What's the difference between a bond and insurance?",
-        a: "Insurance protects you against loss. A surety bond is a three-party guarantee — the surety guarantees you'll fulfill an obligation (your license, a contract, a permit). If you don't, the surety pays the obligee and then seeks reimbursement from you.",
-      },
-      {
-        q: "Do framing contractors need a license bond?",
-        a: "In most states, yes — holding a contractor license requires a license bond (surety bond) that guarantees compliance with state contracting law. The amount and form vary by state. We write license bonds for every state we serve.",
-      },
-      {
-        q: "What is a performance bond and when is it required?",
-        a: "A performance bond guarantees you'll complete a project per the contract. Public projects and many commercial GCs require performance and payment bonds, especially above certain contract values. We secure the bonding capacity to pursue that work.",
-      },
-      {
-        q: "How much does a contractor license bond cost?",
-        a: "License bond cost is a small percentage of the bond amount and depends on your credit, license history, and the state's required amount. Most run a few hundred dollars a year. We quote quickly.",
-      },
-      {
-        q: "Can you help me get bonded for a bigger project?",
-        a: "Yes. We work with sureties to establish bonding capacity — single-job and program (aggregate) limits — so you can bid bonded work. We'll help you present your financials and track record to qualify.",
-      },
-      {
-        q: "What's a bid bond?",
-        a: "A bid bond guarantees that if you win a bid, you'll enter the contract and provide a performance bond. It protects the project owner from bidders who back out. We issue bid bonds to support your pursuit of bonded projects.",
-      },
-      {
-        q: "Do permit bonds cost a lot?",
-        a: "Permit and code-compliance bonds are typically inexpensive and required by local building departments to pull permits. We turn them around fast so your schedule isn't held up.",
-      },
-      {
-        q: "Can I get my bonds and insurance from the same place?",
-        a: "Yes — and it's simpler. We write your license, performance, and permit bonds alongside your insurance program, with one point of contact for certificates, endorsements, and renewals.",
+        q: "Does the umbrella cover jobsite theft and equipment losses?",
+        a: "No. An umbrella covers liability claims, not the theft of your own gear. Stolen tools and equipment are covered by your tools & equipment floater. The umbrella protects you from large third-party liability claims that could otherwise exhaust your primary coverage.",
       },
     ],
   },
@@ -753,14 +753,14 @@ export const SERVICE_DETAIL: Record<string, ServiceDetail> = {
    COVERAGE REGIONS — for coverage page
    ============================================================ */
 export const AZ_REGIONS = [
-  { name: "Texas & the Southwest", note: "TX, NM, AZ — the busiest framing markets in the country" },
-  { name: "U.S. Southeast", note: "FL, GA, NC, SC — hurricane-zone and high-volume residential framing" },
-  { name: "Rocky Mountain West", note: "CO, ID, UT — Front-Range and Intermountain residential construction" },
-  { name: "Pacific Northwest", note: "OR, WA — wet-climate, seismic-zone framing operations" },
-  { name: "Desert West", note: "AZ, NV — Phoenix and Las Vegas high-volume residential production" },
-  { name: "Great Lakes & Midwest", note: "MI, OH, IL, IN — suburban and rural residential markets" },
-  { name: "Northeast & Mid-Atlantic", note: "NY, NJ, PA, New England — dense residential and remodel work" },
-  { name: "California & West Coast", note: "CA — seismic-zone, WUI, and Title 24 framing environments" },
+  { name: "Texas & the Southwest", note: "TX, NM, AZ — the busiest tool-theft market in the country" },
+  { name: "Southeast", note: "FL, GA, NC, SC — hurricane-rebuild surge and high tool inventories" },
+  { name: "California & West Coast", note: "CA, OR, WA — dense urban jobs and high tool investment" },
+  { name: "Northeast & Mid-Atlantic", note: "NY, NJ, PA, New England — among the highest theft exposure nationwide" },
+  { name: "Pacific Northwest", note: "OR, WA — wet-climate, year-round gear-heavy work" },
+  { name: "Rocky Mountain", note: "CO, ID, UT, MT — mobile-equipment investment and remote jobsites" },
+  { name: "Great Lakes & Midwest", note: "MI, OH, IL, IN, WI — seasonal tool-inventory scaling" },
+  { name: "Florida & Gulf Coast", note: "FL, AL, MS, LA — storm-repair tool and equipment surge" },
 ];
 
 /* ============================================================
@@ -778,18 +778,18 @@ export const US_STATES = [
 ];
 
 /* ============================================================
-   Quote form select options (framing-specific)
+   Quote form select options (tools & equipment-specific)
    ============================================================ */
 export const QUOTE_SERVICE_TYPES = [
+  "Tools & Equipment Floater",
+  "Scheduled Equipment & Mobile Gear",
+  "Installation Floater",
+  "Inland Marine Insurance",
+  "Equipment Breakdown",
+  "Commercial Auto (work trucks & tool trailers)",
   "General Liability Insurance",
-  "Workers' Compensation",
-  "Commercial Auto Insurance",
-  "Builder's Risk Insurance",
-  "Tools & Equipment / Inland Marine",
-  "Commercial Property Insurance",
   "Umbrella / Excess Liability",
-  "Contractor License & Surety Bonds",
-  "Full program / bundle (recommended)",
+  "Full gear & equipment program (recommended)",
   "Not sure — help me figure it out",
 ];
 
