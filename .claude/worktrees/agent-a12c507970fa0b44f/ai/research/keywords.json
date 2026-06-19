@@ -1,0 +1,31 @@
+{
+  "niche": "Tools & equipment insurance (contractor tools, gear, mobile equipment, inland marine)",
+  "seed": ["tools and equipment insurance", "contractor tools insurance", "inland marine insurance"],
+  "keywords": [
+    { "keyword": "tools and equipment insurance", "msv": 2100, "kd": 38, "intent": "commercial" },
+    { "keyword": "contractor tools insurance", "msv": 1300, "kd": 35, "intent": "commercial" },
+    { "keyword": "tools and equipment insurance cost", "msv": 880, "kd": 28, "intent": "commercial" },
+    { "keyword": "inland marine insurance", "msv": 5400, "kd": 42, "intent": "commercial" },
+    { "keyword": "does general liability cover stolen tools", "msv": 720, "kd": 22, "intent": "informational" },
+    { "keyword": "scheduled tools coverage", "msv": 320, "kd": 18, "intent": "commercial" },
+    { "keyword": "installation floater insurance", "msv": 590, "kd": 26, "intent": "commercial" },
+    { "keyword": "contractor tools floater", "msv": 480, "kd": 24, "intent": "commercial" },
+    { "keyword": "stolen tools insurance", "msv": 650, "kd": 25, "intent": "informational" },
+    { "keyword": "equipment breakdown insurance", "msv": 1600, "kd": 33, "intent": "commercial" },
+    { "keyword": "mobile equipment insurance", "msv": 720, "kd": 31, "intent": "commercial" },
+    { "keyword": "nail gun insurance", "msv": 210, "kd": 14, "intent": "informational" },
+    { "keyword": "contractor equipment insurance", "msv": 1900, "kd": 39, "intent": "commercial" },
+    { "keyword": "boom lift insurance", "msv": 170, "kd": 16, "intent": "commercial" },
+    { "keyword": "inland marine contractor", "msv": 390, "kd": 27, "intent": "commercial" },
+    { "keyword": "how much is tools and equipment insurance", "msv": 280, "kd": 19, "intent": "informational" }
+  ],
+  "paa": [
+    "Does general liability cover stolen tools?",
+    "What is tools and equipment insurance?",
+    "How much does contractor tools insurance cost?",
+    "What is an installation floater?",
+    "Is tools coverage replacement cost or actual cash value?",
+    "What is inland marine insurance for contractors?",
+    "Are tools stolen from my truck covered?"
+  ]
+}
