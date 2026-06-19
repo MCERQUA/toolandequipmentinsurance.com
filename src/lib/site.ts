@@ -1,14 +1,16 @@
 // Centralized site data — used across nav, footer, schema, CTAs
-// Framing Contractor Insurance — wood framing / rough carpentry contractors
+// Tools & Equipment Insurance — scheduled tools & equipment floaters, mobile
+// equipment, installation floaters, inland marine, and equipment breakdown
+// for contractors' gear that lives on trucks and jobsites.
 
 export const SITE = {
-  name: "Framing Contractor Insurance",
-  legalName: "Framing Contractor Insurance (by Contractors Choice Agency)",
-  domain: "framingcontractorinsurance.com",
-  url: "https://framingcontractorinsurance.com",
-  tagline: "Insurance for Wood Framing & Rough Carpentry Contractors",
+  name: "Tools & Equipment Insurance",
+  legalName: "Tools & Equipment Insurance (by Contractors Choice Agency)",
+  domain: "toolandequipmentinsurance.com",
+  url: "https://toolandequipmentinsurance.com",
+  tagline: "Insurance for Contractors' Tools, Equipment & Gear",
   description:
-    "Specialized commercial insurance for framing contractors and rough carpentry crews — general liability, workers' comp (class 5403), builder's risk, tools & equipment floaters, commercial auto, and commercial property. Fall, nail-gun, and saw exposures underwritten right. Licensed all 50 states.",
+    "Specialized tools and equipment insurance for contractors — scheduled tools & equipment floaters for nail guns, saws, lasers, generators, and compressors; mobile equipment; installation floaters; equipment breakdown; and commercial auto for work trucks and tool trailers. Stolen-tool and jobsite-theft coverage underwritten right. A division of Contractors Choice Agency. Licensed all 50 states.",
   phone: "844-967-5247",
   phoneAlt: "855-336-7189",
   phoneHref: "tel:+18449675247",
@@ -40,76 +42,76 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
-    slug: "general-liability",
-    title: "General Liability Insurance",
-    short: "For framing & rough carpentry operations",
+    slug: "tools-and-equipment",
+    title: "Tools & Equipment Floater",
+    short: "Scheduled gear at replacement cost",
     description:
-      "Third-party bodily injury and property damage protection for your framing crews, jobsites, and subcontracted work — including products-completed operations and the GC certificates that get you onto the project.",
-    icon: "ShieldCheck",
-    keywords: ["framing contractor general liability", "rough carpentry insurance", "framing subcontractor GL", "CG 00 01 framing", "framer liability insurance"],
+      "Scheduled tools-and-equipment coverage for the nail guns, miter saws, lasers, generators, and compressors that walk off jobsites — written at replacement cost so a theft doesn't come out of your pocket. The core policy every gear-heavy contractor needs.",
+    icon: "Wrench",
+    keywords: ["tools and equipment insurance", "contractor tools floater", "scheduled tools coverage", "stolen tools insurance", "nail gun insurance"],
   },
   {
-    slug: "workers-compensation",
-    title: "Workers' Compensation",
-    short: "Class 5403 carpentry — fall & saw exposures",
+    slug: "scheduled-equipment",
+    title: "Scheduled Equipment & Mobile Gear",
+    short: "Lifts, compressors, welders & high-value gear",
     description:
-      "Coverage for the injury patterns unique to framing crews — falls from height, nail-gun and saw lacerations, struck-by and material-handling injuries — with correct class 5403 coding so you're not overpaying or underinsured.",
-    icon: "HardHat",
-    keywords: ["framing contractor workers comp", "class 5403 workers compensation", "carpentry workers comp", "framer fall injury insurance", "nail gun injury workers comp"],
+      "Scheduled coverage for high-value and mobile equipment — boom lifts, towable compressors, welder generators, and specialty gear — listed individually with agreed value so a total loss pays what the equipment is really worth.",
+    icon: "Forklift",
+    keywords: ["scheduled equipment insurance", "mobile equipment floater", "boom lift insurance", "welder insurance", "high value contractor equipment coverage"],
+  },
+  {
+    slug: "installation-floater",
+    title: "Installation Floater",
+    short: "Materials in transit + until installed",
+    description:
+      "Coverage for materials and supplies while in transit to the jobsite and until they're installed and accepted — closing the gap between the supplier's truck and the structure so a lost, damaged, or stolen material package is covered.",
+    icon: "PackageCheck",
+    keywords: ["installation floater", "materials in transit insurance", "contractor installation floater", "builders installation coverage", "in transit materials insurance"],
+  },
+  {
+    slug: "inland-marine",
+    title: "Inland Marine Insurance",
+    short: "Goods & equipment in transit and off-site",
+    description:
+      "Broader inland marine coverage for equipment and goods in transit, at off-site storage, and on jobsites — the flexible coverage class that follows your gear wherever the work takes it, beyond what a fixed property policy will cover.",
+    icon: "Truck",
+    keywords: ["inland marine insurance", "contractor inland marine", "equipment in transit coverage", "off site equipment insurance", "inland marine floater"],
+  },
+  {
+    slug: "equipment-breakdown",
+    title: "Equipment Breakdown",
+    short: "Internal mechanical & electrical failure",
+    description:
+      "Coverage for the internal mechanical and electrical failures that standard property excludes — blown compressors, fried generator windings, burned-up motors, and shorted electronics — so a breakdown doesn't sideline your gear for weeks.",
+    icon: "Cog",
+    keywords: ["equipment breakdown insurance", "boiler and machinery coverage", "compressor breakdown insurance", "generator breakdown coverage", "mechanical breakdown contractor"],
   },
   {
     slug: "commercial-auto",
     title: "Commercial Auto Insurance",
-    short: "Trucks, trailers & lumber delivery",
+    short: "Work trucks & tool trailers",
     description:
-      "Coverage for the pickup trucks, dump trailers, and lumber haulers that move your crew and materials between jobsites — including hired/non-owned and loading liability.",
+      "Coverage for the work trucks and tool trailers that haul your gear between jobsites — including theft from vehicle, trailer physical damage, and hired/non-owned auto for employees running materials in their own trucks.",
     icon: "Truck",
-    keywords: ["framing contractor commercial auto", "contractor truck insurance", "lumber delivery insurance", "trailer insurance carpenter", "hired non owned auto contractor"],
+    keywords: ["commercial auto contractor", "work truck insurance", "tool trailer insurance", "theft from vehicle coverage", "contractor commercial auto"],
   },
   {
-    slug: "builders-risk",
-    title: "Builder's Risk Insurance",
-    short: "The structure & materials you're framing",
+    slug: "general-liability",
+    title: "General Liability Insurance",
+    short: "Third-party injury & damage (not your tools)",
     description:
-      "Course-of-construction coverage for the building you're framing — lumber packages, installed materials, and labor — against fire, wind, theft, and vandalism while the project is open to loss.",
-    icon: "Building2",
-    keywords: ["builders risk framing contractor", "course of construction insurance", "framing phase insurance", "lumber theft insurance jobsite", "soft cost builders risk"],
-  },
-  {
-    slug: "inland-marine-equipment",
-    title: "Tools & Equipment / Inland Marine",
-    short: "Nail guns, saws, compressors & trailers",
-    description:
-      "Scheduled tools-and-equipment coverage for the pneumatic nailers, miter saws, generators, and compressors that walk off jobsites — plus installation floaters that cover materials in transit to the frame.",
-    icon: "Wrench",
-    keywords: ["framing tools insurance", "contractor tools and equipment floater", "inland marine carpenter", "stolen tools insurance", "installation floater framing"],
-  },
-  {
-    slug: "property",
-    title: "Commercial Property Insurance",
-    short: "Shop, yard, office & inventory",
-    description:
-      "All-risk property coverage for the framer's shop, storage yard, prefab wall-panel facility, and lumber/inventory — built for the combustible loading and hot-work exposures of a wood operation.",
-    icon: "Factory",
-    keywords: ["framer commercial property insurance", "carpenter shop insurance", "wall panel plant insurance", "lumber yard property insurance", "contractor property coverage"],
+      "Third-party bodily injury and property damage protection for your operations — and the important clarification that GL does NOT cover your tools. We coordinate your GL with a tools floater so the gap between them is closed.",
+    icon: "ShieldCheck",
+    keywords: ["contractor general liability", "GL does not cover tools", "contractor liability insurance", "third party coverage contractor", "additional insured contractor"],
   },
   {
     slug: "umbrella-excess-liability",
     title: "Umbrella / Excess Liability",
     short: "Limits to $10M+",
     description:
-      "Layered limits above your GL, auto, and employers' liability — essential when a fall, a framed-structure fire, or a multi-party jobsite loss could otherwise exhaust your primary coverage.",
+      "Layered limits above your general liability, auto, and employers' liability — essential when a stolen-equipment loss, a jobsite injury, or a multi-party claim could otherwise exhaust your primary coverage and your gear investment.",
     icon: "Umbrella",
-    keywords: ["framing contractor umbrella insurance", "excess liability carpenter", "contractor umbrella policy", "high limit liability framing", "jobsite liability umbrella"],
-  },
-  {
-    slug: "contractors-bonds",
-    title: "Contractor's License & Surety Bonds",
-    short: "License, permit & performance bonds",
-    description:
-      "The bonds that keep you legal and competitive — state contractor license bonds, permit bonds, and bid/performance bonds for the GCs and developers who require them before you set the first plate.",
-    icon: "FileCheck",
-    keywords: ["framing contractor license bond", "contractor surety bond", "performance bond carpenter", "permit bond framing", "bid bond contractor"],
+    keywords: ["umbrella insurance contractor", "excess liability coverage", "high limit liability insurance", "contractor umbrella policy", "jobsite liability umbrella"],
   },
 ] as const;
 
@@ -119,71 +121,71 @@ export const LOCATIONS = [
     name: "Texas & the Southwest",
     region: "TX · NM · AZ",
     blurb:
-      "The busiest framing market in the country. We insure Texas and Southwest framing crews running high-volume residential production, master-planned communities, and fast turnaround on slab-on-grade builds.",
+      "The busiest tool-theft market in the country. We insure Texas and Southwest contractors running high-volume residential and commercial work where gear lives on trucks and jobsites and gets targeted by thieves.",
   },
   {
     slug: "southeast",
-    name: "U.S. Southeast",
-    region: "Florida · Georgia · Carolinas",
+    name: "Southeast",
+    region: "FL · GA · NC · SC",
     blurb:
-      "Hurricane-zone framing underwriting for Southeast crews — wind and named-storm exposure, Florida building code compliance, and high-volume coastal and inland residential production.",
-  },
-  {
-    slug: "rocky-mountain",
-    name: "Rocky Mountain West",
-    region: "Colorado · Idaho · Utah",
-    blurb:
-      "Front-Range and Intermountain West framing operations. Programs sized for crews serving the region's booming residential and multifamily construction with snow and elevation exposures.",
-  },
-  {
-    slug: "pacific-northwest",
-    name: "Pacific Northwest",
-    region: "Oregon · Washington",
-    blurb:
-      "PNW framing contractors running wet-climate, seismic-zone builds. Coverage that accounts for tight energy-code framing, engineered lumber, and year-round wet jobsite conditions.",
-  },
-  {
-    slug: "desert-west",
-    name: "Desert West",
-    region: "Arizona · Nevada",
-    blurb:
-      "Phoenix, Las Vegas, and Tucson framing operations. Programs for high-volume desert residential production, slab construction, and rapid crew mobilization across master-planned developments.",
-  },
-  {
-    slug: "great-lakes",
-    name: "Great Lakes & Midwest",
-    region: "Michigan · Ohio · Illinois · Indiana",
-    blurb:
-      "Midwest framing contractors serving suburban and rural residential markets. Coverage for seasonal build cycles, freeze/thaw framing conditions, and crew variability.",
-  },
-  {
-    slug: "northeast",
-    name: "Northeast & Mid-Atlantic",
-    region: "NY · NJ · PA · New England",
-    blurb:
-      "Northeast framers running dense residential, remodel, and addition work. Coverage that meets the region's strict licensing, winter build limitations, and historic-district requirements.",
+      "Hurricane-zone and high-volume Southeast markets where storm-recovery crews mobilize fast and tool inventories spike. We schedule gear for the crews doing the rebuild work after every named storm.",
   },
   {
     slug: "california-west",
     name: "California & West Coast",
-    region: "California",
+    region: "CA · OR · WA",
     blurb:
-      "Seismic-zone and wildfire-exposure underwriting for California framing contractors. Programs built for Title 24 framing, WUI builds, and the state's demanding CSLB licensing environment.",
+      "West Coast contractors running dense urban jobs and remote build work alike. Coverage for high tool investment, jobsite-box security requirements, and the transit exposure of moving gear between tight city jobs.",
+  },
+  {
+    slug: "northeast-mid-atlantic",
+    name: "Northeast & Mid-Atlantic",
+    region: "NY · NJ · PA · New England",
+    blurb:
+      "Northeast contractors doing remodel, restoration, and dense residential work — where tools get locked in trucks overnight on city streets and theft exposure is among the highest in the country.",
+  },
+  {
+    slug: "pacific-northwest",
+    name: "Pacific Northwest",
+    region: "OR · WA",
+    blurb:
+      "PNW contractors running wet-climate, year-round work with significant investments in compressors, generators, and laser-guided layout tools. Coverage that follows the gear across jobs and seasons.",
+  },
+  {
+    slug: "rocky-mountain",
+    name: "Rocky Mountain",
+    region: "CO · ID · UT · MT",
+    blurb:
+      "Front-Range and Intermountain contractors serving the region's booming construction market. Programs sized for crews with high mobile-equipment investment and long drive times between remote jobsites.",
+  },
+  {
+    slug: "great-lakes-midwest",
+    name: "Great Lakes & Midwest",
+    region: "MI · OH · IL · IN · WI",
+    blurb:
+      "Midwest contractors serving suburban and rural markets with seasonal build cycles. Coverage right-sized for tool inventories that scale up in the build season and get secured through the freeze.",
+  },
+  {
+    slug: "florida-gulf",
+    name: "Florida & Gulf Coast",
+    region: "FL · AL · MS · LA",
+    blurb:
+      "Gulf Coast and Florida contractors running storm-repair, roofing, and rebuild work with enormous tool and equipment investment. Coverage built for the theft, transit, and surge exposures of the region.",
   },
 ] as const;
 
 export const CREDENTIALS = [
   { label: "Licensed in all 50 states", icon: "MapPin" },
   { label: "Founded 2005 — 20+ years", icon: "CalendarCheck" },
-  { label: "Former framer on staff", icon: "HardHat" },
+  { label: "Former contractor on staff", icon: "HardHat" },
   { label: "15-minute quote turnaround", icon: "Timer" },
   { label: "2-hour claims response", icon: "Zap" },
   { label: "A.M. Best A+ carrier partners", icon: "Award" },
 ] as const;
 
 export const STATS = [
-  { value: 600, suffix: "+", label: "Framing crews insured nationwide", prefix: "" },
-  { value: 20, suffix: "+", label: "Years insuring trades contractors", prefix: "" },
+  { value: 800, suffix: "+", label: "Gear-heavy crews insured nationwide", prefix: "" },
+  { value: 20, suffix: "+", label: "Years insuring contractor equipment", prefix: "" },
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
@@ -191,21 +193,21 @@ export const STATS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Every general contractor we frame for needs a GL certificate with us named additional insured before we can roll. CCA turns those around in minutes and built a program that actually covers our falls and nail-gun claims — not the generic handyman policy our last broker sold us.",
+      "We had $40,000 of nail guns, saws, and a compressor walk off a jobsite over a weekend. The scheduled tools floater CCA built paid out at replacement cost in days and we were back running Monday. Our old broker had us on blanket coverage that would've paid maybe half.",
     name: "Marcus T.",
-    role: "Framing Company Owner",
+    role: "Contracting Company Owner",
     location: "Texas",
   },
   {
     quote:
-      "When a lumber package walked off our jobsite overnight, the tools-and-equipment floater CCA set up paid out fast and we kept the schedule. They get that a framing crew lives and dies by its gear and its materials.",
+      "Nobody told us our general liability didn't cover our tools until after a truck break-in. CCA walked us through the gap, scheduled every piece of gear, and added an installation floater for the materials we haul. We finally understand what's covered and what isn't.",
     name: "Daniela R.",
     role: "Operations Manager",
     location: "Florida",
   },
   {
     quote:
-      "Our workers' comp was coded as generic construction and we were getting killed on premium. CCA re-classed us properly under 5403, documented our fall-protection program, and dropped our rate while increasing coverage. Wish we'd switched years ago.",
+      "Our mobile equipment — a towable lift, two big compressors, a welder generator — was on a generic policy that undervalued all of it. CCA scheduled each unit at agreed value. When the welder died internally, the equipment breakdown coverage replaced it. Worth every penny.",
     name: "Tyler J.",
     role: "Crew Owner",
     location: "Colorado",
