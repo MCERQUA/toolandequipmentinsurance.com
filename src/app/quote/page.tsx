@@ -30,6 +30,7 @@ export default function QuotePage() {
     yearsInBusiness: "",
     message: "",
     "bot-field": "",
+    streetAddress: "", city: "", zip: "", fein: "", yearBusinessStarted: "", priorCarrierName: "", priorPolicyNumber: "", priorPolicyExpiration: "", businessDescription: "",
   });
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -206,6 +207,28 @@ export default function QuotePage() {
                           {QUOTE_SERVICE_TYPES.map((s) => (<option key={s} value={s}>{s}</option>))}
                         </select>
                       </div>
+
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div><label htmlFor="streetAddress" className={labelClass}>Street address *</label><input id="streetAddress" name="streetAddress" type="text" required value={formData.streetAddress} onChange={handleChange} placeholder="123 Main St" className={inputClass} /></div>
+                        <div><label htmlFor="city" className={labelClass}>City *</label><input id="city" name="city" type="text" required value={formData.city} onChange={handleChange} placeholder="City" className={inputClass} /></div>
+                      </div>
+
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div><label htmlFor="zip" className={labelClass}>ZIP code *</label><input id="zip" name="zip" type="text" required value={formData.zip} onChange={handleChange} placeholder="00000" className={inputClass} /></div>
+                        <div><label htmlFor="fein" className={labelClass}>FEIN (federal tax ID) *</label><input id="fein" name="fein" type="text" required value={formData.fein} onChange={handleChange} placeholder="00-0000000" className={inputClass} /></div>
+                      </div>
+
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div><label htmlFor="yearBusinessStarted" className={labelClass}>Year business started *</label><input id="yearBusinessStarted" name="yearBusinessStarted" type="number" required value={formData.yearBusinessStarted} onChange={handleChange} placeholder="2015" className={inputClass} /></div>
+                        <div><label htmlFor="priorCarrierName" className={labelClass}>Current or prior carrier *</label><input id="priorCarrierName" name="priorCarrierName" type="text" required value={formData.priorCarrierName} onChange={handleChange} placeholder="Carrier name" className={inputClass} /></div>
+                      </div>
+
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div><label htmlFor="priorPolicyNumber" className={labelClass}>Current or prior policy number *</label><input id="priorPolicyNumber" name="priorPolicyNumber" type="text" required value={formData.priorPolicyNumber} onChange={handleChange} placeholder="Policy number" className={inputClass} /></div>
+                        <div><label htmlFor="priorPolicyExpiration" className={labelClass}>Policy expiration date *</label><input id="priorPolicyExpiration" name="priorPolicyExpiration" type="date" required value={formData.priorPolicyExpiration} onChange={handleChange} className={inputClass} /></div>
+                      </div>
+
+                      <div><label htmlFor="businessDescription" className={labelClass}>Description of your business *</label><textarea id="businessDescription" name="businessDescription" rows={3} required value={formData.businessDescription} onChange={handleChange} placeholder="What your business does, day to day" className={`${inputClass} resize-none`} /></div>
 
                       <div>
                         <label htmlFor="message" className={labelClass}>
