@@ -190,26 +190,3 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  {
-    quote:
-      "We had $40,000 of nail guns, saws, and a compressor walk off a jobsite over a weekend. The scheduled tools floater CCA built paid out at replacement cost in days and we were back running Monday. Our old broker had us on blanket coverage that would've paid maybe half.",
-    name: "Marcus T.",
-    role: "Contracting Company Owner",
-    location: "Texas",
-  },
-  {
-    quote:
-      "Nobody told us our general liability didn't cover our tools until after a truck break-in. CCA walked us through the gap, scheduled every piece of gear, and added an installation floater for the materials we haul. We finally understand what's covered and what isn't.",
-    name: "Daniela R.",
-    role: "Operations Manager",
-    location: "Florida",
-  },
-  {
-    quote:
-      "Our mobile equipment — a towable lift, two big compressors, a welder generator — was on a generic policy that undervalued all of it. CCA scheduled each unit at agreed value. When the welder died internally, the equipment breakdown coverage replaced it. Worth every penny.",
-    name: "Tyler J.",
-    role: "Crew Owner",
-    location: "Colorado",
-  },
-] as const;
