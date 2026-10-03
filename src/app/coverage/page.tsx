@@ -60,7 +60,7 @@ export default function CoveragePage() {
               <span className="pill-clay">Coverage Area</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 National reach.{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                <span className="text-clay">
                   All 50 states, every contractor market.
                 </span>
               </h1>

@@ -51,7 +51,7 @@ export function ServicesGrid() {
                   <div
                     className={`inline-flex h-12 w-12 items-center justify-center rounded-2xl mb-4 transition-colors ${
                       isFeatured
-                        ? "bg-clay-gradient text-white"
+                        ? "bg-clay text-white"
                         : "bg-clay/10 text-clay group-hover:bg-clay group-hover:text-white"
                     }`}
                   >

@@ -36,7 +36,7 @@ export function Footer() {
       <div className="container-wide py-14 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
         <div className="col-span-2 lg:col-span-2">
           <div className="flex items-center gap-2.5 mb-4">
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay-gradient">
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay">
               <Wrench className="h-5 w-5 text-white" strokeWidth={2.4} />
             </span>
             <span className="flex flex-col leading-none">

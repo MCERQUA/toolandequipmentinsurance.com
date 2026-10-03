@@ -28,7 +28,7 @@ export function WhyChooseUs() {
 
             <div className="mt-8 rounded-3xl bg-white border border-adobe shadow-card p-6">
               <div className="flex items-start gap-3">
-                <span className="flex-shrink-0 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-clay-gradient text-white">
+                <span className="flex-shrink-0 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-clay text-white">
                   <ShieldCheck className="h-6 w-6" strokeWidth={2.2} />
                 </span>
                 <div>

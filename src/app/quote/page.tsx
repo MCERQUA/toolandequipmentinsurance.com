@@ -75,7 +75,7 @@ export default function QuotePage() {
               <span className="pill-clay"><ShieldCheck className="h-3.5 w-3.5" /> Free quote</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Get your{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                <span className="text-clay">
                   tools &amp; equipment insurance quote
                 </span>
               </h1>
@@ -247,7 +247,7 @@ export default function QuotePage() {
                       <button
                         type="submit"
                         disabled={submitting}
-                        className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-clay-gradient text-white font-heading font-bold rounded-full shadow-warm hover:shadow-warm-lg hover:-translate-y-0.5 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+                        className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-clay text-white font-heading font-bold rounded-full shadow-warm hover:shadow-warm-lg hover:-translate-y-0.5 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
                       >
                         {submitting ? "Sending…" : "Request my free quote"}
                         {!submitting && <ArrowRight className="h-5 w-5" />}

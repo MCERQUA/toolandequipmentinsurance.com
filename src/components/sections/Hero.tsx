@@ -41,7 +41,7 @@ export function Hero() {
               className="mt-5 font-heading font-extrabold text-espresso text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl leading-[1.05] tracking-tight"
             >
               Tools &amp; equipment insurance that{" "}
-              <span className="relative z-10 bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">replaces your gear</span>.
+              <span className="relative z-10 text-clay">replaces your gear</span>.
             </motion.h1>
 
             <motion.p {...item} className="mt-6 lead max-w-xl">
@@ -107,7 +107,7 @@ export function Hero() {
                 className="absolute -bottom-6 -left-4 md:-left-8 bg-white rounded-2xl shadow-warm-lg border border-adobe p-5 max-w-[15rem]"
               >
                 <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 h-11 w-11 rounded-xl bg-clay-gradient flex items-center justify-center">
+                  <div className="flex-shrink-0 h-11 w-11 rounded-xl bg-clay flex items-center justify-center">
                     <ShieldCheck className="h-6 w-6 text-white" />
                   </div>
                   <div>

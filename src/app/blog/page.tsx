@@ -45,7 +45,7 @@ export default function BlogPage() {
               <span className="pill-clay">Blog & insights</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Tools &amp; equipment insurance,{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                <span className="text-clay">
                   decoded
                 </span>
               </h1>
@@ -105,7 +105,7 @@ export default function BlogPage() {
                     <FadeIn key={post.slug} delay={i * 0.08}>
                       <Link href={`/blog/${post.slug}`} className="group block h-full">
                         <article className="rounded-3xl overflow-hidden bg-white border border-adobe shadow-card hover:shadow-card-hover transition-all h-full flex flex-col">
-                          <div className="h-2 bg-clay-gradient" />
+                          <div className="h-2 bg-clay" />
                           <div className="p-6 flex-grow flex flex-col">
                             <div className="flex items-center gap-3 text-xs text-mocha mb-3">
                               <span className="px-2.5 py-0.5 bg-clay/10 text-clay rounded-md font-heading font-semibold">{post.category}</span>

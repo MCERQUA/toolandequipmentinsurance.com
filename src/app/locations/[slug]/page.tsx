@@ -102,7 +102,7 @@ export default async function LocationPage({ params }: Props) {
                 </span>
                 <h1 className="mt-4 font-heading font-extrabold text-espresso text-4xl md:text-5xl leading-[1.08] tracking-tight">
                   Tools &amp; equipment insurance —{" "}
-                  <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                  <span className="text-clay">
                     {loc.name}
                   </span>
                 </h1>

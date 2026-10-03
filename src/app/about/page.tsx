@@ -49,7 +49,7 @@ export default function AboutPage() {
               <span className="pill-clay">About us</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Built by a contractor,{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                <span className="text-clay">
                   for contractor gear
                 </span>
                 .
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 <FadeIn key={t.title} delay={i * 0.08}>
                   <div className="flex flex-col md:flex-row gap-4 md:gap-8 p-6 rounded-3xl bg-white border border-adobe shadow-card">
                     <div className="md:w-40 flex-shrink-0">
-                      <span className="inline-flex px-4 py-2 rounded-full bg-clay-gradient text-white font-heading font-extrabold">
+                      <span className="inline-flex px-4 py-2 rounded-full bg-clay text-white font-heading font-extrabold">
                         {t.year}
                       </span>
                     </div>

@@ -47,7 +47,7 @@ export default function ServicesPage() {
               <span className="pill-clay">Coverage lines</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Insurance built line-by-line for{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                <span className="text-clay">
                   contractors&rsquo; gear
                 </span>
                 .
@@ -85,7 +85,7 @@ export default function ServicesPage() {
                       )}
                       <div
                         className={`inline-flex h-12 w-12 items-center justify-center rounded-2xl mb-4 ${
-                          featured ? "bg-clay-gradient text-white" : "bg-clay/10 text-clay"
+                          featured ? "bg-clay text-white" : "bg-clay/10 text-clay"
                         }`}
                       >
                         <Icon className="h-6 w-6" strokeWidth={2.2} />

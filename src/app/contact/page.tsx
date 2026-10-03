@@ -68,7 +68,7 @@ export default function ContactPage() {
               <span className="pill-clay"><MessageCircle className="h-3.5 w-3.5" /> Contact</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Let&rsquo;s talk about your{" "}
-                <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
+                <span className="text-clay">
                   tools &amp; equipment coverage
                 </span>
               </h1>
@@ -176,7 +176,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={submitting}
-                    className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-clay-gradient text-white font-heading font-bold rounded-full shadow-warm hover:shadow-warm-lg hover:-translate-y-0.5 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+                    className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-clay text-white font-heading font-bold rounded-full shadow-warm hover:shadow-warm-lg hover:-translate-y-0.5 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
                   >
                     {submitting ? "Sending…" : "Send message"}
                     {!submitting && <ArrowRight className="h-5 w-5" />}

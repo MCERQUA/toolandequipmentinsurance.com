@@ -7,7 +7,7 @@ import { FadeIn } from "@/components/animations/FadeIn";
 
 export function FinalCTA() {
   return (
-    <section className="relative overflow-hidden bg-clay-gradient py-20 md:py-24">
+    <section className="relative overflow-hidden bg-clay py-20 md:py-24">
       {/* texture */}
       <div className="absolute inset-0 dotted-warm opacity-40" aria-hidden />
       <div
