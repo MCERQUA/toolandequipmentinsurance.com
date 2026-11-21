@@ -47,12 +47,32 @@ export default function QuotePage() {
     if (formData["bot-field"]) return;
     setSubmitting(true);
     setError("");
+    let captured = false;
     try {
-      await fetch(WEBHOOK_URL, {
+      const res = await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ form_name: "quote", source: "toolandequipmentinsurance.com", ...formData }),
       });
+      if (res.ok) {
+        const body = await res.json().catch(() => null);
+        // 2xx counts only if the leads API did not say stored:false
+        captured = !(body && body.stored === false);
+      }
+    } catch {}
+    if (!captured) {
+      // webhook failed or did not store the lead: Netlify Forms fallback
+      try {
+        const fres = await fetch("/__forms.html", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ "form-name": "quote", ...(formData as Record<string, string>) }).toString(),
+        });
+        captured = fres.ok;
+      } catch {}
+    }
+    try {
+      if (!captured) throw new Error("lead not captured");
       setSubmitted(true);
     } catch {
       setError("Something went wrong. Please call us at 844-967-5247 or try again.");
